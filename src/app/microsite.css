@@ -1,0 +1,57 @@
+.swiper {padding: 0 !important;}
+
+
+
+
+
+
+
+.home-highlights_text {
+  text-align: left;
+  position: relative;
+  top: -10px;
+}
+
+@media only screen and (max-width:768px) {
+  .page-project-amidst {background: none;}
+  .lifestyle-section, .lifestyle-section::before {background-size: 26% 8% !important;background: none;}
+  .mobileoverview {
+    margin-top: -30px !important;
+  }
+
+  .section-small {
+    background-size: 20% !important;
+    background: none ;
+  }
+
+  .section-small::before {
+    background-size: 20% !important;
+    background: none ;
+  }
+
+  .lifestyle-section {
+    background-size: 28% 8% !important
+  }
+
+  .lifestyle-section::before {
+    background-size: 28% 8% !important
+  }
+
+  .page-about-mv {
+    background-size: 20% 10% !important
+  }
+
+  .page-about-mv::before {
+    background-size: 20% 12% !important
+  }
+
+  .page-project-amidst {
+    background-size: 15% 10% !important;
+    background-position: 100% 100%
+  }
+
+  .page-project-amidst::before {
+    background-size: 15% 10% !important;
+    background-position: 0% 100%
+  }
+}

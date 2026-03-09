@@ -1,0 +1,72 @@
+.homeHighlights li{line-height: 1.8 !important;}
+
+
+
+
+
+
+
+
+.homehome {
+  background-image: url('/images/Green-Thinking..webp') !important;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.w-md-50 {
+  width: 50% !important;
+}
+
+@media only screen and (max-width:768px) {
+  .lifestyle-section .swiper-button-prev ,.lifestyle-section .swiper-button-next  {display: none;}
+  .w-md-50 {
+    width: 100% !important;
+  }
+
+  .homehome {
+    background-repeat: no-repeat;
+    background-position: 100% 100% !important;
+    background-size: 100%;
+  }
+
+  .mobileoverview {
+    margin-top: -30px !important;
+  }
+
+  .section-small {
+    background-size: 20% !important
+  }
+
+ 
+
+  .section-small::before {
+    background-size: 20% !important
+  }
+
+  .lifestyle-section {
+    background-size: 28% 8% !important
+  }
+
+  .lifestyle-section::before {
+    background-size: 28% 8% !important
+  }
+
+  .page-about-mv {
+    background-size: 50% 35% !important
+  }
+
+  .page-about-mv::before {
+    background-size: 50% 35% !important
+  }
+
+  .page-project-amidst {
+    background-size: 20% 15% !important;
+    background-position: 100% 100%
+  }
+
+  .page-project-amidst::before {
+    background-size: 25% 15% !important;
+    background-position: 0% 100%
+  }
+}

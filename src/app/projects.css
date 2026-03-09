@@ -1,0 +1,24 @@
+
+.aboutabout {
+
+ background-image: url('/images/AOur-projects_EARA.webp') !important;
+ background-size: cover !important;
+ background-position:  left center !important;
+ 
+ background-repeat: no-repeat;
+}
+.w-50 {width: 75% !important;}
+@media only screen and (max-width:768px) {
+  .page-about-mv::before {background-size: 12% 10%;}
+  .page-about-mv {background-size: 12% 10%;}
+ .aboutabout {
+ 
+ 
+   background-image: none !important;
+   background-size: 100% 100% !important;
+   background-position: center  !important;
+  
+   background-repeat: no-repeat;
+ }
+ .w-75 {width: 100% !important;}
+}
