@@ -14,6 +14,7 @@ import Ongoing from "./components/Ongoing";
 import ImageCompare from "./components/ImageCompare";
 import RealEstateHero from "./components/RealEstateHero";
 import YouTube from "react-youtube";
+import { useEffect, useState } from "react";
 
 // export const metadata = {
 //   title: "Eara Group - Luxury Villa Plots for Sale in Kanakapura Road.",
@@ -49,6 +50,18 @@ import YouTube from "react-youtube";
 // };
 
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+useEffect(() => {
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 768);
+  };
+
+  handleResize();
+  window.addEventListener("resize", handleResize);
+
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
  const opts = {
     height: "100%",
     width: "100%",
@@ -57,7 +70,8 @@ export default function Home() {
       mute: 1,
       controls: 0,
       loop: 1,
-      playlist: "nshgvGB63MI",
+        loop: 1,
+    playlist: isMobile ? "SKH2Yziei-U" : "nshgvGB63MI",
       modestbranding: 1,
       showinfo: 0,
     },
@@ -122,18 +136,17 @@ export default function Home() {
 
             <div style={{ position: "relative", height: "100vh", width: "100%" }}>
               
-              <YouTube
-                videoId="nshgvGB63MI"
-                opts={opts}
-                style={{
-                  position: "absolute",
-                  top: -20,
-                  left: -140,
-                  width: "125%",
-                  height: "125%",
-                }}
-              />
-
+             <YouTube
+  videoId={isMobile ? "SKH2Yziei-U" : "nshgvGB63MI"}
+  opts={opts}
+  style={{
+    position: "absolute",
+    top: isMobile ? -100 : -20,
+    left: isMobile ? 0 : -140,
+    width: isMobile ? "100%" : "125%",
+    height: isMobile ? "80%" : "125%",
+  }}
+/>
             </div>
 
           </div>
