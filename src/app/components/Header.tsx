@@ -48,7 +48,7 @@ const subMenus: Record<string, MenuType> = {
     items: [
       { href: "/about", label: "About Eara Group" },
       { href: "/founders", label: "Founders" },
-      { href: "/leadership-team", label: "Leadership Team" },
+      // { href: "/leadership-team", label: "Leadership Team" },
     ],
   },
 

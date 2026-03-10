@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "./../about.css";
 import TestimonialSlider from "../components/Home/TestimonialSliderAbout";
+import WhatSetsUsApart from "../components/WhatSetsUsApart";
 export const metadata = {
   title: 'Premium Residential Plots in Kanakapura Main Road - Eara Group',
   description: 'Discover Premium Villa Plots in Kanakapura Main Road by Eara Group. Invest in spacious, well-planned plots with excellent connectivity and modern amenities.',
@@ -128,26 +129,17 @@ export default function About() {
               <div>
                 <h2 className="mb-2 theme-color-dark fs-2 text-center">About Us</h2>
                <p className="mb-2 theme-color-dark">
-  EARA Group is a progressive real estate development company dedicated to
-  creating exceptional living environments that harmonize luxury with nature.
-  With a strong commitment to quality, sustainability, and thoughtful design,
-  we develop spaces that enrich lifestyles and stand the test of time.
+  EARA Group is a progressive real estate development company dedicated to creating exceptional living environments that harmonize luxury with nature. With a strong commitment to quality, sustainability, and thoughtful design, we develop spaces that enrich lifestyles and stand the test of time.
 </p>
 
 <p className="mb-2 theme-color-dark">
-  Our philosophy goes beyond building properties. We believe in crafting
-  communities where architecture, environment, and lifestyle come together
-  seamlessly. Driven by innovation and guided by integrity, EARA Group focuses
-  on developing premium plotted communities and lifestyle destinations that
-  cater to the aspirations of modern homeowners and global investors.
+ Our philosophy goes beyond building properties. We believe in crafting communities where architecture, environment, and lifestyle come together seamlessly.
 </p>
 
 <p className="mb-5 theme-color-dark">
-  Every EARA development reflects meticulous planning, superior infrastructure,
-  and a vision for future-ready living. Our goal is to create spaces that offer
-  long-term value, comfort, and a sense of belonging for every resident and
-  investor who becomes part of the EARA community.
+ Our philosophy goes beyond building properties. We believe in crafting communities where architecture, environment, and lifestyle come together seamlessly.  <br/> <br/> Every EARA development reflects meticulous planning, superior infrastructure, and a vision for future-ready living.
 </p>
+
               </div>
             </div>
           </div>
@@ -256,7 +248,7 @@ Our developments are designed to foster well-being, community, and environmental
           </div>
         </div>
       </section>
-    
+    <WhatSetsUsApart/>
 
     
 
@@ -265,13 +257,13 @@ Our developments are designed to foster well-being, community, and environmental
 
 
 
-      <TestimonialSlider
+      {/* <TestimonialSlider
          sectionClass = " px-3 bg-light theme-bg-light testimonials-light"
   headingClass = "text-center mb-4 fw-bold theme-color-light"
   cardClass = "info-box px-5 py-5 bg-white theme-bg-dark shadow-sm h-100 rounded d-flex flex-column justify-content-between mb-md-5"
   textClass = "theme-color-dark my-3 lh-lg"
   nameClass = "text-center fw-bold theme-color-dark fw-bold mt-auto "
-      />
+      /> */}
 
       
 

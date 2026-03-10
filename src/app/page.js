@@ -1,4 +1,4 @@
-//"use client";
+"use client";
 //import { useEffect } from "react";
 import "./homepage.css";
 import Link from "next/link";
@@ -13,40 +13,56 @@ import CoreValuesSlider from "./components/CoreValuesSlider";
 import Ongoing from "./components/Ongoing";
 import ImageCompare from "./components/ImageCompare";
 import RealEstateHero from "./components/RealEstateHero";
-export const metadata = {
-  title: "Eara Group - Luxury Villa Plots for Sale in Kanakapura Road.",
-  description:
-    "Discover Eara Group's luxury villa plots for sale in Kanakapura Road. Build your dream home amidst nature with premium amenities & great connectivity.",
-  keywords:
-    "Eara Group, Luxury villa plots for sale in Kanakapura Main Road, Plots for Sale in Kanakapura Main Road, Villa plots sale near Kanakapura Main Road, Premium villa plots for sale in Kaggalipura",
-  alternates: {
-    canonical: "https://earagroup.com/",
-  },
-  other: {
-    "link:preload": [
-      {
-        rel: "preload",
-        as: "image",
-        href: "/images/hero-image-edit-4-new.avif",
-        type: "image/avif",
-      },
-      {
-        rel: "preload",
-        as: "image",
-        href: "/images/mobile-img.avif",
-        type: "image/avif",
-      },
-      {
-        rel: "preload",
-        as: "image",
-        href: "/images/Green-thinking-2.avif",
-        type: "image/avif",
-      },
-    ],
-  },
-};
+import YouTube from "react-youtube";
+
+// export const metadata = {
+//   title: "Eara Group - Luxury Villa Plots for Sale in Kanakapura Road.",
+//   description:
+//     "Discover Eara Group's luxury villa plots for sale in Kanakapura Road. Build your dream home amidst nature with premium amenities & great connectivity.",
+//   keywords:
+//     "Eara Group, Luxury villa plots for sale in Kanakapura Main Road, Plots for Sale in Kanakapura Main Road, Villa plots sale near Kanakapura Main Road, Premium villa plots for sale in Kaggalipura",
+//   alternates: {
+//     canonical: "https://earagroup.com/",
+//   },
+//   other: {
+//     "link:preload": [
+//       {
+//         rel: "preload",
+//         as: "image",
+//         href: "/images/hero-image-edit-4-new.avif",
+//         type: "image/avif",
+//       },
+//       {
+//         rel: "preload",
+//         as: "image",
+//         href: "/images/mobile-img.avif",
+//         type: "image/avif",
+//       },
+//       {
+//         rel: "preload",
+//         as: "image",
+//         href: "/images/Green-thinking-2.avif",
+//         type: "image/avif",
+//       },
+//     ],
+//   },
+// };
 
 export default function Home() {
+ const opts = {
+    height: "100%",
+    width: "100%",
+    playerVars: {
+      autoplay: 1,
+      mute: 1,
+      controls: 0,
+      loop: 1,
+      playlist: "nshgvGB63MI",
+      modestbranding: 1,
+      showinfo: 0,
+    },
+  };
+
   // In the page where you want to display the slider (e.g., HomePage.js)
 
   const upcomingProjects = [
@@ -99,77 +115,31 @@ export default function Home() {
 
       <main className="main-wrapper">
         <h1 className="d-none" style={{ display: "none" }}>Eara Group</h1>
-        <div className="overflow-clip" id="main-slider">
-          <div
-            id="carouselExampleDark"
-            className="header-section position-relative"
-          >
-            <div className="row">
-              <div className="col-md-12">
-                <div
-                  className="video-container position-relative "
-                  style={{ lineHeight: "0 !important" }}
-                >
-                 
+    <div className="overflow-hidden" id="main-slider">
+      <div id="carouselExampleDark" className="header-section position-relative">
+        <div className="row">
+          <div className="col-md-12">
 
-                  <video
-                    className="w-100 h-100 object-fit-cover d-none d-md-block"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    preload="auto"
-                    fetchPriority="high"
-                    // poster="/images/desktop-home-video.png"
-                    style={{
-                      objectFit: "cover",
-                      height: "100%",
-                      width: "100%",
-                    }}
-                  >
-                    <source
-                      src="/images/Eara Nature Web Video_2.mp4"
-                      style={{
-                        objectFit: "cover",
-                        height: "100vh",
-                        width: "100%",
-                      }}
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
+            <div style={{ position: "relative", height: "100vh", width: "100%" }}>
+              
+              <YouTube
+                videoId="nshgvGB63MI"
+                opts={opts}
+                style={{
+                  position: "absolute",
+                  top: -20,
+                  left: -140,
+                  width: "125%",
+                  height: "125%",
+                }}
+              />
 
-                  <video
-                    className="w-100 h-100 object-fit-cover d-md-none"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    preload="auto"
-                    // poster="/images/mobile-home-video.webp" // fallback image before video loads
-                    style={{
-                      objectFit: "cover",
-                      height: "100%",
-                      width: "100%",
-                    }}
-                  >
-                    <source
-                      src="/images/Eara-WebsiteHmeBannerMobileVersion.mp4"
-                      style={{
-                        objectFit: "cover",
-                        height: "100vh",
-                        width: "100%",
-                      }}
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </div>
             </div>
+
           </div>
-        
         </div>
+      </div>
+    </div>
         <div id="scroll-more">
           <section className="section-1  px-3 theme-bg-light homehome">
             <div className="container">

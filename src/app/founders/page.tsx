@@ -63,7 +63,7 @@ export default function FounderMessage() {
             </div>
 
             {/* Right Content */}
-          <div className="col-lg-7">
+        <div className="col-lg-7">
   <h2 className="mb-4">Founder & CEO – EARA Group</h2>
 
   <p>
@@ -73,10 +73,10 @@ export default function FounderMessage() {
   </p>
 
   <p>
-    With a strong entrepreneurial mindset and a passion for sustainable
-    development, he established EARA Group with the vision of building
-    future-ready residential environments that enhance quality of life
-    while respecting nature.
+    With a strong entrepreneurial mindset and a deep passion for
+    sustainable development, he established EARA Group with the vision
+    of building future-ready residential environments that enhance the
+    quality of life while respecting and preserving nature.
   </p>
 
   <p>
@@ -86,14 +86,14 @@ export default function FounderMessage() {
   </p>
 
   <p>
-    Mr. Reddy believes that real estate is not just about developing land —
-    it is about creating lasting communities, enriching lifestyles, and
-    shaping environments where future generations can thrive.
+    Mr. Reddy believes that real estate is not just about developing
+    land — it is about creating lasting communities, enriching
+    lifestyles, and shaping environments where future generations can
+    thrive.
   </p>
 
   <h5 className="mt-4 fw-bold">— Mr. E. Lakshminarayana Reddy</h5>
 </div>
-
           </div>
         </div>
       </section>
