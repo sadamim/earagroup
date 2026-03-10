@@ -25,10 +25,10 @@ type ProjectItem = {
 type MenuType = {
   label: string;
   paths: string[];
+  href?: string;
   mega?: boolean;
-  items: any[];
+  items?: any[];
 };
-
 /* =========================================================
    MENU CONFIG
 ========================================================= */
@@ -51,24 +51,11 @@ const subMenus: Record<string, MenuType> = {
       // { href: "/leadership-team", label: "Leadership Team" },
     ],
   },
-
-  projects: {
-    label: "Projects",
-    paths: ["/project", "/amidstnature"],
-    mega: true,
-    items: [
-      {
-        title: "Bengaluru",
-        children: [
-          {
-            title: "Residential",
-            href: "/amidstnature",
-          },
-        ],
-      },
-    ],
-  },
-
+projects: {
+  label: "Projects",
+  href: "/amidstnature",
+  paths: ["/amidstnature"],
+},
   nri: {
     label: "NRI Lounge",
     paths: ["/nri/invest", "/nri/faq", "/nri/contact"],
@@ -218,26 +205,27 @@ export default function Header() {
 
             {Object.entries(subMenus).map(([key, menu]) => (
               <li key={key} className="has-sub position-relative">
-                <span
-                  className={`menu-link px-3 ${
-                    isTop ? "text-white" : "text-dark"
-                  }`}
-                >
-                  {menu.label}
-                  <span className="menu-arrow"></span>
-                </span>
+               <Link
+  href={menu.href || "#"}
+  className={`menu-link px-3 text-decoration-none ${
+    isTop ? "text-white" : "text-dark"
+  }`}
+>
+  {menu.label}
+  <span className="menu-arrow"></span>
+</Link>
 
                 {/* NORMAL DROPDOWN */}
 
-                {!menu.mega && (
-                  <ul className="submenu">
-                    {menu.items.map((item: NormalMenuItem) => (
-                      <li key={item.href}>
-                        <Link href={item.href}>{item.label}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+              {menu.items && !menu.mega && (
+  <ul className="submenu">
+    {menu.items.map((item: NormalMenuItem) => (
+      <li key={item.href}>
+        <Link href={item.href}>{item.label}</Link>
+      </li>
+    ))}
+  </ul>
+)}
 
                 {/* PROJECTS MENU */}
 
@@ -322,7 +310,7 @@ export default function Header() {
 
         {/* SUB NAVBAR */}
 
-        {activeMenu && !activeMenu.mega && (
+        {activeMenu && activeMenu.items && !activeMenu.mega && (
           <div className="sub-navbar bg-secondary py-2">
             <div className="container">
               <ul className="sub-menu d-flex align-items-center mb-0 gap-4">
