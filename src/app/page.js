@@ -144,7 +144,7 @@ useEffect(() => {
     top: isMobile ? -100 : -20,
     left: isMobile ? 0 : -140,
     width: isMobile ? "100%" : "125%",
-    height: isMobile ? "80%" : "125%",
+    height: isMobile ? "100%" : "125%",
   }}
 />
             </div>
