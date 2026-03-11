@@ -291,7 +291,7 @@ export default function Home() {
           {/* Section 2: 360 Lifestyle Cards */}
           {/* <CoreValuesSlider /> */}
           <RealEstateHero />
-          <TestimonialSlider />
+          {/* <TestimonialSlider /> */}
           {/* Section 4: Blog Section */}
 
           <section className=" px-3 theme-bg-light blog">
