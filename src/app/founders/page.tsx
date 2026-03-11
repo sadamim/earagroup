@@ -63,33 +63,19 @@ export default function FounderMessage() {
             </div>
 
             {/* Right Content */}
-        <div className="col-lg-7">
-  <h2 className="mb-4">Founder & CEO – EARA Group</h2>
+       <div className="col-lg-7">
+  <h2 className="mb-4">About Mr. E. Lakshminarayana Reddy</h2>
 
   <p>
-    Mr. E. Lakshminarayana Reddy is the Founder and CEO of EARA Group, a
-    visionary real estate development company focused on creating
-    thoughtfully planned communities that blend luxury with nature.
+    Mr. E. Lakshminarayana Reddy is the Founder & CEO of EARA Group, a leading real estate and construction company based in Bengaluru, Karnataka. A first-generation entrepreneur, he has dedicated his career to building premium residential communities in Bengaluru. With over two decades of experience, he leads the company with a vision rooted in integrity, transparency, and sustainability.
   </p>
 
   <p>
-    With a strong entrepreneurial mindset and a deep passion for
-    sustainable development, he established EARA Group with the vision
-    of building future-ready residential environments that enhance the
-    quality of life while respecting and preserving nature.
+    His mission is simple yet powerful: to create spaces that enrich lifestyles and stand as legacies for generations to come. Under his leadership, EARA Group has become a trusted name in real estate development, driving the company’s vision of creating future-ready neighborhoods that deliver long-term value.
   </p>
 
   <p>
-    Under his leadership, the company is committed to delivering
-    developments that emphasize thoughtful planning, eco-friendly
-    infrastructure, and long-term value for homeowners and investors.
-  </p>
-
-  <p>
-    Mr. Reddy believes that real estate is not just about developing
-    land — it is about creating lasting communities, enriching
-    lifestyles, and shaping environments where future generations can
-    thrive.
+    Beyond business, Mr. Reddy is actively engaged in community service through organizations like Rotary International, reflecting his commitment to social responsibility. His philosophy is rooted in integrity, innovation, and the belief that real estate is not just about constructing buildings, but about shaping legacies for generations to come.
   </p>
 
   <h5 className="mt-4 fw-bold">— Mr. E. Lakshminarayana Reddy</h5>
@@ -97,6 +83,39 @@ export default function FounderMessage() {
           </div>
         </div>
       </section>
+
+       <section className="py-5 bg-light">
+        <div className="container">
+          <div className="row align-items-center g-5">
+
+            <div className="text-center">
+  <h2 className="mb-4">Message from the Founder & CEO</h2>``
+
+  <p>
+    At EARA Group, we believe real estate is more than just land and buildings—it is about creating communities, nurturing dreams, and building legacies. As a first-generation entrepreneur, my vision has always been to deliver developments that combine trust, transparency, and long-term value.
+  </p>
+
+  <p>
+    Our projects are designed to offer not just a place to live, but a lifestyle enriched with comfort, security, and sustainability. We understand that buying a home is one of life’s most important decisions, and we are committed to making that journey rewarding and worry-free.
+  </p>
+
+  <p>
+    EARA Group represents reliability and growth. With premium residential plots along Bengaluru’s fast-developing corridors, we ensure that every investment is backed by quality, foresight, and appreciation potential. Our focus on timely delivery and ethical practices makes us a trusted partner in wealth creation.
+  </p>
+
+  <p>
+    Together, let us shape neighborhoods that stand the test of time and create spaces where families and futures can flourish.
+  </p>
+
+  <h5 className="mt-4 fw-bold text-end">
+    — Mr. E. Lakshminarayana Reddy, Founder & CEO, EARA Group
+  </h5>
+</div>
+          </div>
+        </div>
+      </section>
+
+     
     </>
   );
 }
