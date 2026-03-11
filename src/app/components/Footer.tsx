@@ -92,7 +92,7 @@ export default function Footer() {
                           About
                         </Link>
 
-                        <Link href="/microsite" className="text-decoration-none  d-block text-dark mb-2">
+                        <Link href="/amidstnature" className="text-decoration-none  d-block text-dark mb-2">
                           Project
                         </Link>
 

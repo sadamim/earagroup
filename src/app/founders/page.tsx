@@ -67,7 +67,7 @@ export default function FounderMessage() {
   <h2 className="mb-4">About Mr. E. Lakshminarayana Reddy</h2>
 
   <p>
-    Mr. E. Lakshminarayana Reddy is the Founder & CEO of EARA Group, a leading real estate and construction company based in Bengaluru, Karnataka. A first-generation entrepreneur, he has dedicated his career to building premium residential communities in Bengaluru. With over two decades of experience, he leads the company with a vision rooted in integrity, transparency, and sustainability.
+    Mr. E. Lakshminarayana Reddy is the <strong> Founder & CEO of EARA Group </strong>, a leading real estate and construction company based in Bengaluru, Karnataka. A first-generation entrepreneur, he has dedicated his career to building premium residential communities in Bengaluru. With over two decades of experience, he leads the company with a vision rooted in integrity, transparency, and sustainability.
   </p>
 
   <p>
@@ -75,7 +75,7 @@ export default function FounderMessage() {
   </p>
 
   <p>
-    Beyond business, Mr. Reddy is actively engaged in community service through organizations like Rotary International, reflecting his commitment to social responsibility. His philosophy is rooted in integrity, innovation, and the belief that real estate is not just about constructing buildings, but about shaping legacies for generations to come.
+    Beyond business, Mr. Reddy is actively engaged in community service through organizations like <strong>Rotary International </strong> , reflecting his commitment to social responsibility. His philosophy is rooted in integrity, innovation, and the belief that real estate is not just about constructing buildings, but about shaping legacies for generations to come.
   </p>
 
   <h5 className="mt-4 fw-bold">— Mr. E. Lakshminarayana Reddy</h5>
@@ -108,7 +108,7 @@ export default function FounderMessage() {
   </p>
 
   <h5 className="mt-4 fw-bold text-end">
-    — Mr. E. Lakshminarayana Reddy, Founder & CEO, EARA Group
+    — Mr. E. Lakshminarayana Reddy, 
   </h5>
 </div>
           </div>

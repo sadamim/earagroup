@@ -81,6 +81,29 @@ export default function ChannelPartner() {
                             Partner with EARA Group and be part of a visionary journey that drives innovation and success.
                         </p>
                     </div>
+                      <div className="bg-light py-5 theme-bg-light channel section px-5">
+  <div className="mx-auto px-5" >
+    
+    <p className="mb-4">
+      At <strong>EARA Group</strong>, we believe strong partnerships create
+      successful communities. We invite professional channel partners,
+      real estate consultants, and brokerage firms to collaborate with us
+      in bringing exceptional developments to discerning buyers.
+    </p>
+
+    <p className="mb-4">
+      Our projects are designed to deliver premium living experiences
+      amidst nature, supported by thoughtful planning, transparent
+      processes, and attractive partner incentives.
+    </p>
+
+    <p className="mb-0">
+      Join us and become part of a growing network shaping the future of
+      modern real estate.
+    </p>
+
+  </div>
+</div>
 
                     <div className="row justify-content-center">
                        {/* <div className="col-lg-6 d-flex align-items-center">
@@ -124,29 +147,7 @@ export default function ChannelPartner() {
                     </div>
                 </div>
             </section>
-          <div className="bg-light py-5 theme-bg-light channel section px-5">
-  <div className="mx-auto px-5" >
-    
-    <p className="mb-4">
-      At <strong>EARA Group</strong>, we believe strong partnerships create
-      successful communities. We invite professional channel partners,
-      real estate consultants, and brokerage firms to collaborate with us
-      in bringing exceptional developments to discerning buyers.
-    </p>
-
-    <p className="mb-4">
-      Our projects are designed to deliver premium living experiences
-      amidst nature, supported by thoughtful planning, transparent
-      processes, and attractive partner incentives.
-    </p>
-
-    <p className="mb-0">
-      Join us and become part of a growing network shaping the future of
-      modern real estate.
-    </p>
-
-  </div>
-</div>
+        
         </>
     );
 }
