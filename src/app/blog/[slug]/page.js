@@ -121,7 +121,7 @@ export default async function BlogPost({ params }) {
         
                                     <div className="overlay2 ">
                                         <div className="text-white d-block">
-                                            <h1 className="text-center d-block fs-1 mb-0 text-uppercase"> Blog</h1>
+                                            <h1 className="text-center d-block fs-1 mb-0 text-uppercase">  {post.h1 }</h1>
                                             {/* Removed commented-out Link */}
                                         </div>
                                     </div>
@@ -141,9 +141,9 @@ export default async function BlogPost({ params }) {
                   height={607}
                />
 
-               <h1 className="fs-2 fw-bold mt-4 theme-color-dark m-center">
+               {/* <h1 className="fs-2 fw-bold mt-4 theme-color-dark m-center">
                   {post.h1 || post.title}
-               </h1>
+               </h1> */}
 
                <div
                   className="theme-color-dark py-2"

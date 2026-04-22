@@ -49,6 +49,8 @@ import { useEffect, useState } from "react";
 //   },
 // };
 
+
+
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -62,20 +64,20 @@ useEffect(() => {
 
   return () => window.removeEventListener("resize", handleResize);
 }, []);
- const opts = {
-    height: "100%",
-    width: "100%",
-    playerVars: {
-      autoplay: 1,
-      mute: 1,
-      controls: 0,
-      loop: 1,
-        loop: 1,
-    playlist: isMobile ? "SKH2Yziei-U" : "nshgvGB63MI",
-      modestbranding: 1,
-      showinfo: 0,
-    },
-  };
+const opts = {
+  playerVars: {
+    autoplay: 1,
+    mute: 1,
+    controls: 0,
+    showinfo: 0,
+    modestbranding: 1,
+    loop: 1,
+    playlist: isMobile ? "SKH2Yziei-U" : "nshgvGB63MI", // MUST for loop
+    rel: 0,
+    iv_load_policy: 3,
+    disablekb: 1,
+  },
+};
 
   // In the page where you want to display the slider (e.g., HomePage.js)
 
@@ -136,17 +138,13 @@ useEffect(() => {
 
             <div style={{ position: "relative", height: "100vh", width: "100%" }}>
               
-             <YouTube
-  videoId={isMobile ? "SKH2Yziei-U" : "nshgvGB63MI"}
-  opts={opts}
-  style={{
-    position: "absolute",
-    top: isMobile ? -100 : -20,
-    left: isMobile ? 0 : -140,
-    width: isMobile ? "100%" : "125%",
-    height: isMobile ? "100%" : "125%",
-  }}
-/>
+           <div className="video-container">
+  <YouTube
+    videoId={isMobile ? "SKH2Yziei-U" : "nshgvGB63MI"}
+    opts={opts}
+    className="youtube-bg"
+  />
+</div>
             </div>
 
           </div>
@@ -160,11 +158,15 @@ useEffect(() => {
 
       {/* Left Side Image */}
       <div className="col-md-6 mb-4 mb-md-0">
-        <img
-          src="/images/About_.webp"
-          alt="Green Living"
-          className="img-fluid rounded"
-        />
+      <Image
+  src="/images/About_.webp"
+  alt="Green Living"
+  width={600}
+  height={400}
+  className="img-fluid rounded"
+  sizes="(max-width: 768px) 100vw, 50vw"
+  priority={false}
+/>
       </div>
 
       {/* Right Side Content */}
@@ -309,7 +311,7 @@ useEffect(() => {
 
           <section className=" px-3 theme-bg-light blog">
             <div className="container">
-              <h2 className="text-center theme-color-dark">LATEST BLOGS</h2>
+              <h2 className="text-center theme-color-dark">BLOGS</h2>
 
               <div className="blog-grid">
                 {posts.slice(0, 3).map((post) => (

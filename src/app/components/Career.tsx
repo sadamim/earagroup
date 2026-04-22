@@ -101,7 +101,7 @@ export default function Career() {
               />
               <div className="overlay2" style={{ marginTop: "-120px" }}>
                 <div className="text-white text-center">
-                  <h1 className="fs-1 mb-0 text-uppercase">Career</h1>
+                  <h1 className="fs-1 mb-0 text-uppercase">Careers</h1>
                   {/* <p className="px-md-0 px-3">Explore exciting job openings in Eara Group and become part of a purpose-driven future.</p> */}
                 </div>
               </div>

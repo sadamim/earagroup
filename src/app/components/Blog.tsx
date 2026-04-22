@@ -42,7 +42,7 @@ const staticPosts: Post[] = [
 
         excerpt:
             "Investing in Serenity: Why Nature-Focused Developments Promise Better Real estate investment has evolved far beyond square footage and price tags. Today&rsquo;s most successful investors ",
-          image: "/images/luxury-villa-plots-kaggalipura-2).webp",
+        image: "/images/luxury-villa-plots-kaggalipura-2).webp",
         date: "2026-01-02",
     },
     {
@@ -84,7 +84,52 @@ const staticPosts: Post[] = [
         excerpt:
             "From voice-controlled lighting to multifunctional furniture, smart living is shaping the way we design our bedrooms. Dive into the latest real estate insights that define modern comfort and convenience..",
         date: "2025-05-23",
-    }
+    },
+    {
+        slug: "villa-plot-near-kanakapura-road",
+        title: "Top 5 Reasons to Buy Villa Plot Near Kanakapura Road",
+        image: "/images/villa-plot-near-kanakapura-road-investment-benefits.webp",
+        excerpt:
+            "Kanakapura Road is emerging as a prime investment corridor with strong growth, connectivity, and lifestyle benefits—making it ideal for villa plot buyers.",
+        date: "2026-03-23",
+    },
+   {
+  slug: "plots-for-sale-in-kaggalipura-bangalore",
+  title: "Plots for Sale in Kaggalipura Bangalore: Why This Location Is Emerging Fast",
+  image: "/images/plots-for-sale-in-kaggalipura-bangalore-growth.webp",
+  excerpt:
+    "Kaggalipura is emerging as a fast-growing residential hub with strong connectivity, greenery, and high investment potential for plot buyers in Bangalore.",
+  date: "2026-03-23",
+},
+{
+  slug: "plots-in-kanakapura-road",
+  title: "Plots in Kanakapura Road: Complete Location Guide for Buyers",
+  image: "/images/plots-in-kanakapura-road-location-guide.webp",
+  excerpt:
+    "Kanakapura Road is emerging as a prime residential corridor in Bangalore with excellent connectivity, green surroundings, and strong long-term investment potential for plot buyers.",
+  date: "2026-04-01",
+},
+{
+  "slug": "residential-plots-for-sale-in-kanakapura-road",
+  "title": "Residential Plots for Sale in Kanakapura Road: Complete Buyer Guide",
+  "image": "/images/residential-plots-kanakapura-road-buyer-guide.webp",
+  "excerpt": "Discover residential plots for sale in Kanakapura Road, Bangalore with strong connectivity, green surroundings, and high long-term investment potential for buyers and investors.",
+  "date": "2026-04-01"
+},
+{
+  "slug": "plots-for-sale-near-kanakapura-road",
+  "title": "Plots for Sale Near Kanakapura Road – Location Guide & Investment Insights",
+  "image": "/images/plots-for-sale-near-kanakapura-road.webp",
+  "excerpt": "Explore top localities offering plots for sale near Kanakapura Road, including Kaggalipura and Harohalli, with strong growth potential and connectivity.",
+  "date": "2026-04-16"
+},
+{
+  "slug": "sites-in-kanakapura-road",
+  "title": "Sites in Kanakapura Road – BMRDA Approved Layouts, Prices & Buyer Guide",
+  "image": "/images/sites-in-kanakapura-road.webp",
+  "excerpt": "Explore BMRDA approved sites in Kanakapura Road with pricing trends, locality insights, and a complete buyer checklist for safe investment.",
+  "date": "2026-04-16"
+}
 ];
 
 
@@ -144,7 +189,7 @@ export default function Blog() {
 
                             <div className="overlay2 ">
                                 <div className="text-white d-block">
-                                    <h1 className="text-center d-block fs-1 mb-0 text-uppercase"> Blog</h1>
+                                    <h1 className="text-center d-block fs-1 mb-0 "> BLOGS</h1>
                                     {/* Removed commented-out Link */}
                                 </div>
                             </div>
@@ -194,7 +239,7 @@ export default function Blog() {
                                                 alt={post.title}
                                                 width={500}
                                                 height={500}
-                                                style={{  objectFit: "cover" }}
+                                                style={{ objectFit: "cover" }}
                                             />
                                         </Link>
                                     </div>

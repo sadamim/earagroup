@@ -53,7 +53,7 @@ export default function ChannelPartner() {
                                     {" "}
                                     <h1 className="text-center d-block fs-1 mb-3 text-uppercase">
                                         {" "}
-                                        Channel Partner
+                                        Channel Partners
                                     </h1>
                                     {/* <p className="text-center d-block fs-6 ">
                     <Link
@@ -76,14 +76,14 @@ export default function ChannelPartner() {
             <section className="bg-light py-5 theme-bg-light channel section">
                 <div className="container">
                     <div className="text-center mb-5 theme-color-dark">
-                        <h2 className="mb-2">Become Our Channel Partner</h2>
+                        <h2 className="mb-2">Become Our Channel Partners</h2>
                         <p className="theme-color-dark text-center">
                             Partner with EARA Group and be part of a visionary journey that drives innovation and success.
                         </p>
                     </div>
-                      <div className="bg-light py-5 theme-bg-light channel section px-5">
-  <div className="mx-auto px-5" >
-    
+                     <div className="bg-light py-5 theme-bg-light channel section px-md-5">
+  <div className="mx-auto px-md-5">
+
     <p className="mb-4">
       At <strong>EARA Group</strong>, we believe strong partnerships create
       successful communities. We invite professional channel partners,

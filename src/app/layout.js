@@ -21,6 +21,9 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: 'https://earagroup.com',
+  },
 };
 
 const poppins = Poppins({
@@ -203,7 +206,10 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </ClientWrapper>
-       
+        <Script
+  src="https://backend.livhousing.com/bot/create-script-tag?token=ec6251c2-5916-441c-b0c8-da729b47c649"
+  strategy="lazyOnload"
+/>
       </body>
     </html>
   );

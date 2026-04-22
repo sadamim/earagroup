@@ -33,7 +33,7 @@ export default function Footer() {
                     <div className="">
                       <p className=" fs-6 small text-uppercase m-center fw-bold">OUR ADDRESS</p>
                     </div>
-                    <p className=" text-dark mb-0 pe-md-4 text-start m-center">MM-201, 2nd Floor, MANYA MANSION #11, Blue Bells Street, 7th Main, 7th Cross, Rajeevgandhinagar, Bangalore-560097</p>
+                    <p className=" text-dark mb-0 pe-md-4 text-start m-center">No.863, 'FOUR ELEMENTS' 2nd Floor, RMS Layout, E-Block, Sahakaranagar, <br/> Bangalore-560092</p>
                     <ul className=" list-unstyled my-3  m-center">
                       <li className="d-flex align-items-center mb-2  justify-content-md-start justify-content-center">
                         <div className="icon ">
@@ -79,7 +79,7 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-3  d-flex justify-content-center py-5" data-wow-delay="300ms">
+                <div className="col-lg-3 col-md-2  d-flex justify-content-center py-5" data-wow-delay="300ms">
                   <div className="">
                     <div className="">
                       <p className=" text-center fs-6 small text-uppercase m-center fw-bold">Quick Links</p>
@@ -89,29 +89,29 @@ export default function Footer() {
                         </Link>
 
                         <Link href="/about" className="text-decoration-none  d-block text-dark mb-2">
-                          About
+                          About Us
                         </Link>
 
                         <Link href="/amidstnature" className="text-decoration-none  d-block text-dark mb-2">
-                          Project
+                          Projects
                         </Link>
 
                         <Link href="/blog" className="text-decoration-none  d-block text-dark mb-2">
-                          Blog
+                          Blogs
                         </Link>
 
                         <Link
                           href="/career"
                           className="text-decoration-none  d-block text-dark mb-2"
                         >
-                          Career
+                          Careers
                         </Link>
 
                         <Link
                           href="/contact"
                           className="text-decoration-none  d-block text-dark mb-2"
                         >
-                          Contact
+                          Contact Us
                         </Link>
 
                         <Link

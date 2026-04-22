@@ -48,7 +48,7 @@ export default function Contact() {
           <div className="row">
             <div className="col-md-12 mx-auto">
               <div className="heading mb-md-5">
-                <h2 className="text-center theme-color-dark mt-md-0 mt-4 mb-0 ">Contact Us</h2>
+                <h2 className="text-center theme-color-dark mt-md-0 mt-4 mb-5 ">Contact Us</h2>
                 <p className="fs-6 text-center">Get in touch through the official Eara Group contact page - we&rsquo;re here to help you</p>
               </div>
             </div>

@@ -30,7 +30,7 @@ export default function WhatSetsUsApart() {
           {features.map((item, index) => (
             <div className="col-md-3 mb-4" key={index}>
               <div className="feature-box p-4 h-100">
-                <h4 className="fw-bold t-g mb-3">{item.title}</h4>
+                <h4 className="fw-bold fs-4 t-g mb-3">{item.title}</h4>
                 <p>{item.desc}</p>
               </div>
             </div>

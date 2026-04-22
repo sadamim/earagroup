@@ -51,11 +51,11 @@ const subMenus: Record<string, MenuType> = {
       // { href: "/leadership-team", label: "Leadership Team" },
     ],
   },
-projects: {
-  label: "Projects",
-  href: "/amidstnature",
-  paths: ["/amidstnature"],
-},
+  projects: {
+    label: "Projects",
+    href: "/amidstnature",
+    paths: ["/amidstnature"],
+  },
   nri: {
     label: "NRI Lounge",
     paths: ["/nri/invest", "/nri/faq", "/nri/contact"],
@@ -118,13 +118,16 @@ export default function Header() {
     <>
       {/* ================= MOBILE NAV ================= */}
 
+      {/* ================= MOBILE NAV ================= */}
+
       <nav
-        className={`navbar-animated position-fixed top-0 w-100 navbar navbar-expand-lg bg-primary d-md-none shadow-sm ${
-          isVisible ? "navbar-visible navbar-dark" : "navbar-dark"
-        }`}
+        className={`navbar-animated position-fixed top-0 w-100 navbar navbar-expand-lg d-md-none shadow-sm ${isVisible ? "navbar-visible navbar-dark bg-primary" : "navbar-dark bg-primary"
+          }`}
         style={{ zIndex: 999 }}
       >
         <div className="container-fluid">
+
+          {/* LOGO */}
           <Link href="/" className="navbar-brand">
             <Image
               src="/images/logo-dark.webp"
@@ -136,6 +139,7 @@ export default function Header() {
             />
           </Link>
 
+          {/* TOGGLE */}
           <button
             className="navbar-toggler"
             type="button"
@@ -145,23 +149,71 @@ export default function Header() {
             <span className="navbar-toggler-icon" />
           </button>
 
+          {/* MENU */}
           <div className="collapse navbar-collapse" id="navbarScroll">
-            <ul className="navbar-nav text-center me-auto my-2 my-lg-0 navbar-nav-scroll text-white">
-              {[
-                { href: "/", label: "Home" },
-                { href: "/about", label: "About" },
-                { href: "/project", label: "Project" },
-                { href: "/channel-partner", label: "Channel Partner" },
-                { href: "/blog", label: "Blogs" },
-                { href: "/career", label: "Career" },
-                { href: "/contact", label: "Contact" },
-              ].map((link) => (
-                <li key={link.href} className="nav-item">
-                  <Link href={link.href} className="nav-link">
-                    {link.label}
+            <ul className="navbar-nav text-center w-100">
+
+              {/* HOME */}
+              <li className="nav-item">
+                <Link href="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
+
+              {/* DYNAMIC MENUS */}
+              {Object.entries(subMenus).map(([key, menu]) => (
+                <li key={key} className="nav-item dropdown">
+
+                  {/* MAIN LINK */}
+                  <Link
+                    href={menu.href || "#"}
+                    className="nav-link dropdown-toggle"
+                    data-bs-toggle={menu.items ? "dropdown" : ""}
+                  >
+                    {menu.label}
                   </Link>
+
+                  {/* SUBMENU */}
+                  {menu.items && (
+                    <ul className="dropdown-menu text-center">
+                      {menu.items.map((item: NormalMenuItem) => (
+                        <li key={item.href}>
+                          <Link href={item.href} className="dropdown-item">
+                            {item.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
                 </li>
               ))}
+
+              {/* STATIC LINKS */}
+              <li className="nav-item">
+                <Link href="/blog" className="nav-link">
+                  Blogs
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link href="/channel-partner" className="nav-link">
+                  Channel Partner
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link href="/career" className="nav-link">
+                  Careers
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link href="/contact" className="nav-link">
+                  Contact
+                </Link>
+              </li>
+
             </ul>
           </div>
         </div>
@@ -170,9 +222,8 @@ export default function Header() {
       {/* ================= DESKTOP NAV ================= */}
 
       <div
-        className={`navbar-animated position-fixed top-0 w-100 d-none d-md-block ${
-          isVisible ? "navbar-visible" : ""
-        } ${isTop ? "bg-transparent" : "bg-light"}`}
+        className={`navbar-animated position-fixed top-0 w-100 d-none d-md-block ${isVisible ? "navbar-visible" : ""
+          } ${isTop ? "bg-transparent" : "bg-light"}`}
         style={{ zIndex: 999 }}
       >
         <div className="container py-2 d-flex justify-content-between align-items-center">
@@ -195,9 +246,8 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className={`px-3 text-decoration-none ${
-                  isTop ? "text-white" : "text-dark"
-                }`}
+                className={`px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                  }`}
               >
                 Home
               </Link>
@@ -205,27 +255,26 @@ export default function Header() {
 
             {Object.entries(subMenus).map(([key, menu]) => (
               <li key={key} className="has-sub position-relative">
-               <Link
-  href={menu.href || "#"}
-  className={`menu-link px-3 text-decoration-none ${
-    isTop ? "text-white" : "text-dark"
-  }`}
->
-  {menu.label}
-  <span className="menu-arrow"></span>
-</Link>
+                <Link
+                  href={menu.href || "#"}
+                  className={`menu-link px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                    }`}
+                >
+                  {menu.label}
+                  <span className="menu-arrow"></span>
+                </Link>
 
                 {/* NORMAL DROPDOWN */}
 
-              {menu.items && !menu.mega && (
-  <ul className="submenu">
-    {menu.items.map((item: NormalMenuItem) => (
-      <li key={item.href}>
-        <Link href={item.href}>{item.label}</Link>
-      </li>
-    ))}
-  </ul>
-)}
+                {menu.items && !menu.mega && (
+                  <ul className="submenu">
+                    {menu.items.map((item: NormalMenuItem) => (
+                      <li key={item.href}>
+                        <Link href={item.href}>{item.label}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
 
                 {/* PROJECTS MENU */}
 
@@ -257,9 +306,8 @@ export default function Header() {
             <li>
               <Link
                 href="/blog"
-                className={`px-3 text-decoration-none ${
-                  isTop ? "text-white" : "text-dark"
-                }`}
+                className={`px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                  }`}
               >
                 Blogs
               </Link>
@@ -268,20 +316,18 @@ export default function Header() {
             <li>
               <Link
                 href="/channel-partner"
-                className={`px-3 text-decoration-none ${
-                  isTop ? "text-white" : "text-dark"
-                }`}
+                className={`px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                  }`}
               >
-                Channel Partner
+                Channel Partners
               </Link>
             </li>
 
             <li>
               <Link
                 href="/career"
-                className={`px-3 text-decoration-none ${
-                  isTop ? "text-white" : "text-dark"
-                }`}
+                className={`px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                  }`}
               >
                 Careers
               </Link>
@@ -290,11 +336,10 @@ export default function Header() {
             <li>
               <Link
                 href="/contact"
-                className={`px-3 text-decoration-none ${
-                  isTop ? "text-white" : "text-dark"
-                }`}
+                className={`px-3 text-decoration-none ${isTop ? "text-white" : "text-dark"
+                  }`}
               >
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -318,9 +363,8 @@ export default function Header() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className={`sub-link ${
-                        pathname === item.href ? "active-sub" : ""
-                      }`}
+                      className={`sub-link ${pathname === item.href ? "active-sub" : ""
+                        }`}
                     >
                       • {item.label}
                     </Link>

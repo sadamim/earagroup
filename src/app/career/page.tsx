@@ -7,7 +7,7 @@ export const metadata = {
   keywords:
     "Villa Plot near Kanakapura Main Road, Residential plots for sale in Kanakapura Main Road, Residential Plots for Sale in Kaggalipura Bangalore, Plot For Sale In Kaggalipura",
   alternates: {
-    canonical: "https://earagroup.com/career/",
+   canonical: "https://earagroup.com/career"
   },
  
 }; 
