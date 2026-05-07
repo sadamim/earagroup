@@ -12,7 +12,7 @@ export default function WhyInvestInEara() {
           <div className="col-md-12">
             <div className="image-container">
               <Image
-                    src="/images/Why-invest.webp"
+                src="/images/Why-invest.webp"
                 width={1920}
                 height={800}
                 className="img-fluid masterpiece"
@@ -29,7 +29,7 @@ export default function WhyInvestInEara() {
                   </h1>
 
                   {/* Breadcrumb */}
-                  <p className="text-center d-block fs-6">
+                  <p className="text-center d-block fs-6 d-none">
                     <Link
                       className="text-white text-decoration-none"
                       href="/"

@@ -3,8 +3,8 @@ import Link from "next/link";
 import "./../project.css";
 import TestimonialSlider from "../components/Home/TestimonialSlider";
 export const metadata = {
-    title: 'Amidst Nature Location: Luxury Living on Kanakapura Main Road',
-    description: 'Discover serenity at Amidst Nature, Kanakapura Main Road. Enjoy lush greenery, peaceful surroundings, and modern comforts in this beautiful, tranquil location.',
+    title: 'Amidst Nature by Eara Group | Luxury Villa Plots in Kaggalipura, Bangalore',
+    description: 'Amidst Nature Reviews, price, location &amp; project details. Explore Eara Group&#39;s BMRDA approved luxury villa plots in Kaggalipura, Kanakapura Road,Bangalore. 141 plots | 25,000 sq.ft clubhouse.',
     keywords: 'Amidst Nature Address, Amidst Nature Reviews, Amidst Nature Price, Amidst Nature Kanakapura Main Road',
     alternates: {
         canonical: 'https://earagroup.com/project/',
@@ -134,7 +134,7 @@ export default function Project() {
                                 </p>
 
                                 <p className=" theme-color-dark text-center"><strong></strong>Spread across 18+ lush green acres in Kaggalipura, just Off Kanakapura Main Road, this ultra-luxury plotted development invites you to design your forever home in a place where the city fades and nature speaks. This ultra-luxury plotted development is thoughtfully designed and well executed. Approved by BMRDA.
-                                    
+
 
                                 </p>
                                 <p className=" theme-color-dark text-center"><strong></strong>

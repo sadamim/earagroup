@@ -41,12 +41,12 @@ export default function Gallery() {
             alt={slide.alt}
             width={1920}
             height={1080}
-            className="img-fluid rounded-3 blur-price"
+            className="img-fluid rounded-3"
             loading="lazy"
             style={{ cursor: 'zoom-in', width: '100%', height: 'auto' }}
             onClick={() => handleSlideClick(slide.src, index)}
           />
-           <div className="masterplan-overlay">
+          <div className="masterplan-overlay d-none">
             <a href="#" className="masterplan-btn">
               Enquiry Now
             </a>
@@ -108,14 +108,14 @@ export default function Gallery() {
                     alt={slide.alt}
                     width={350}
                     height={186}
-                    className="img-fluid rounded-2 swiper-thumb-image blur-price"
+                    className="img-fluid rounded-2 swiper-thumb-image"
                     loading="lazy"
                   />
-                   <div className="masterplan-overlay">
-            <a href="#" className="masterplan-btn">
-              Enquiry Now
-            </a>
-          </div>
+                  <div className="masterplan-overlay d-none">
+                    <a href="#" className="masterplan-btn">
+                      Enquiry Now
+                    </a>
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>

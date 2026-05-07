@@ -141,7 +141,7 @@ export default function Blog() {
     const postsPerPage = 6;
 
     // 🔍 Filter by title
-    const filteredPosts = staticPosts.filter((post) =>
+    const filteredPosts = posts.filter((post) =>
         post.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
@@ -272,15 +272,22 @@ export default function Blog() {
                         <div className="col text-center">
                             <nav>
                                 <ul className="pagination justify-content-center">
-                                    {Array.from({ length: totalPages }, (_, i) => (
-                                        <li
-                                            key={i}
-                                            className={`page-item mx-1 bg-black ${currentPage === i + 1 ? 'active' : ''}`}
-                                            onClick={() => setCurrentPage(i + 1)}
-                                        >
-                                            <button className="page-link btn text-black rounded-0 theme-bg-dark border-dark">{i + 1}</button>
-                                        </li>
-                                    ))}
+                                    {Array.from({ length: totalPages }, (_, i) => {
+                                        const isActive = currentPage === i + 1;
+                                        return (
+                                            <li
+                                                key={i}
+                                                className={`page-item mx-1 ${isActive ? 'active' : ''}`}
+                                                onClick={() => setCurrentPage(i + 1)}
+                                            >
+                                                <button 
+                                                    className={`page-link btn rounded-0 border-dark ${isActive ? 'bg-black text-white' : 'text-black theme-bg-dark'}`}
+                                                >
+                                                    {i + 1}
+                                                </button>
+                                            </li>
+                                        );
+                                    })}
                                 </ul>
                             </nav>
                         </div>

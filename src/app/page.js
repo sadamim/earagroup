@@ -13,8 +13,13 @@ import CoreValuesSlider from "./components/CoreValuesSlider";
 import Ongoing from "./components/Ongoing";
 import ImageCompare from "./components/ImageCompare";
 import RealEstateHero from "./components/RealEstateHero";
-import YouTube from "react-youtube";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+
+const YouTube = dynamic(() => import("react-youtube"), { ssr: false });
 
 // export const metadata = {
 //   title: "Eara Group - Luxury Villa Plots for Sale in Kanakapura Road.",
@@ -54,30 +59,30 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
-useEffect(() => {
-  const handleResize = () => {
-    setIsMobile(window.innerWidth <= 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  const opts = {
+    playerVars: {
+      autoplay: 1,
+      mute: 1,
+      controls: 0,
+      showinfo: 0,
+      modestbranding: 1,
+      loop: 1,
+      playlist: isMobile ? "SKH2Yziei-U" : "nshgvGB63MI", // MUST for loop
+      rel: 0,
+      iv_load_policy: 3,
+      disablekb: 1,
+    },
   };
-
-  handleResize();
-  window.addEventListener("resize", handleResize);
-
-  return () => window.removeEventListener("resize", handleResize);
-}, []);
-const opts = {
-  playerVars: {
-    autoplay: 1,
-    mute: 1,
-    controls: 0,
-    showinfo: 0,
-    modestbranding: 1,
-    loop: 1,
-    playlist: isMobile ? "SKH2Yziei-U" : "nshgvGB63MI", // MUST for loop
-    rel: 0,
-    iv_load_policy: 3,
-    disablekb: 1,
-  },
-};
 
   // In the page where you want to display the slider (e.g., HomePage.js)
 
@@ -131,75 +136,89 @@ const opts = {
 
       <main className="main-wrapper">
         <h1 className="d-none" style={{ display: "none" }}>Eara Group</h1>
-    <div className="overflow-hidden" id="main-slider">
-      <div id="carouselExampleDark" className="header-section position-relative">
-        <div className="row">
-          <div className="col-md-12">
+        <div className="overflow-hidden w-100 main-slider-margin" id="main-slider">
+          <div id="carouselExampleDark" className="header-section position-relative w-100">
+            <div className="row m-0 p-0">
+              <div className="col-12 m-0 p-0">
 
-            <div style={{ position: "relative", height: "100vh", width: "100%" }}>
-              
-           <div className="video-container">
-  <YouTube
-    videoId={isMobile ? "SKH2Yziei-U" : "nshgvGB63MI"}
-    opts={opts}
-    className="youtube-bg"
-  />
-</div>
+                <div style={{ position: "relative", height: "calc(100vh - 100px)", width: "100%" }}>
+
+                  <div className="video-container w-100 h-100">
+                    <Swiper
+                      modules={[Autoplay]}
+                      autoplay={{ delay: 5000, disableOnInteraction: false }}
+                      loop={true}
+                      className="h-100 w-100"
+                    >
+                      <SwiperSlide className="w-100 h-100">
+                        <video
+                          src="/images/Crafting-Exceptional-Living.mp4"
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          preload="metadata"
+                          className="w-100 h-100 object-fit-cover"
+                          style={{ objectFit: "cover" }}
+                        />
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                </div>
+
+              </div>
             </div>
-
           </div>
         </div>
-      </div>
-    </div>
         <div id="scroll-more">
-        <section className="section-1 px-3 theme-bg-light">
-  <div className="container">
-    <div className="row align-items-center">
+          <section className="section-1 px-3 theme-bg-light">
+            <div className="container">
+              <div className="row align-items-center">
 
-      {/* Left Side Image */}
-      <div className="col-md-6 mb-4 mb-md-0">
-      <Image
-  src="/images/About_.webp"
-  alt="Green Living"
-  width={600}
-  height={400}
-  className="img-fluid rounded"
-  sizes="(max-width: 768px) 100vw, 50vw"
-  priority={false}
-/>
-      </div>
+                {/* Left Side Image */}
+                <div className="col-md-6 mb-4 mb-md-0">
+                  <Image
+                    src="/images/About_.webp"
+                    alt="Green Living"
+                    width={600}
+                    height={400}
+                    className="img-fluid rounded"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority={false}
+                  />
+                </div>
 
-      {/* Right Side Content */}
-      <div className="col-md-6 ">
-        <h2 className="mb-0 theme-color-dark">
-          Crafting Timeless Spaces<br /> for Extraordinary Living
-        </h2>
+                {/* Right Side Content */}
+                <div className="col-md-6 ">
+                  <h2 className="mb-0 theme-color-dark">
+                    Crafting Timeless Spaces<br /> for Extraordinary Living
+                  </h2>
 
-        <p className="mt-3 theme-color-dark m-center">
-         At EARA Group, we’re redefining the future of real estate with a strong vision to build premium communities that balance modern living with environmental responsibility.
-        </p>
+                  <p className="mt-3 theme-color-dark m-center">
+                    At EARA Group, we’re redefining the future of real estate with a strong vision to build premium communities that balance modern living with environmental responsibility.
+                  </p>
 
-        <p className="mt-3 theme-color-dark m-center">
-        We create thoughtfully designed communities that blend luxury, sustainability, and nature. Every development is envisioned to offer a refined lifestyle for those who aspire to live beyond the ordinary. Every square foot is planned with precision, combining modern infrastructure, long-term value, and green living at its core.
-        </p>
+                  <p className="mt-3 theme-color-dark m-center">
+                    We create thoughtfully designed communities that blend luxury, sustainability, and nature. Every development is envisioned to offer a refined lifestyle for those who aspire to live beyond the ordinary. Every square foot is planned with precision, combining modern infrastructure, long-term value, and green living at its core.
+                  </p>
 
-        <p className="m-center">
-          Building Legacies. Shaping the Future.
-        </p>
+                  <p className="m-center">
+                    Building Legacies. Shaping the Future.
+                  </p>
 
-        <div className="text-start m-center mb-md-5 pb-4">
-          <Link
-            href="/about"
-            className="btn btn-primary border mt-3"
-          >
-            Explore More
-          </Link>
-        </div>
-      </div>
+                  <div className="text-start m-center mb-md-5 pb-4">
+                    <Link
+                      href="/about"
+                      className="btn btn-primary border mt-3"
+                    >
+                      Explore More
+                    </Link>
+                  </div>
+                </div>
 
-    </div>
-  </div>
-</section>
+              </div>
+            </div>
+          </section>
 
           <section className="same-gap position-relative bg-light theme-bg-dark up-coming d-none">
             <div className="container">

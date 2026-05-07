@@ -39,7 +39,7 @@ export const posts = [
 
 <p>This is why BMRDA Residential Plots in Kanakapura Road are generally viewed as lower-risk compared to unapproved or loosely documented layouts.</p>
 
-<p>To understand the fundamentals before evaluating any project, it helps to know why <a href="https://earagroup.com/blog/bmrda-approved-sites-kanakapura-road-investment/"><strong>BMRDA-approved layouts in Kanakapura Road</strong></a> are widely considered safer and more reliable for long-term ownership.</p>
+<p>To understand the fundamentals before evaluating any project, it helps to know why <a href="https://earagroup.com/blog/bmrda-approved-sites-kanakapura-road-investment/" alt="BMRDA approved sites in Kanakapura Road"><strong>BMRDA-approved layouts in Kanakapura Road</strong></a> are widely considered safer and more reliable for long-term ownership.</p>
 
 <h2 class="fs-5 fw-bold mb-2"><strong>Why Kanakapura Road Buyers Must Take Approvals Seriously</strong></h2>
 
@@ -417,7 +417,7 @@ End-users planning construction, long-term investors, and anyone who values clea
     
     <p class="" ><span>While exact appreciation percentages cannot be guaranteed, market trends indicate that Kanakapura Road is still in a growth phase. With limited availability of large land parcels and increasing preference for plotted developments, annual appreciation is generally estimated at 8 - 12% (approx.) over the medium to long term.</span></p>
     
-    <p class="" ><span>Buyers who understand pricing trends are better positioned to make informed decisions, especially when they know </span><a href="https://earagroup.com/blog/how-to-choose-premium-villa-plots-in-kanakapura-road/" style="text-decoration:none;"><span >how to choose premium villa plots in Kanakapura Road</span></a><span> based on approvals, layout quality, and long-term value.</span></p>
+    <p class="" ><span>Buyers who understand pricing trends are better positioned to make informed decisions, especially when they know </span><a alt="premium villa plots in Kanakapura Road" href="https://earagroup.com/blog/how-to-choose-premium-villa-plots-in-kanakapura-road/" style="text-decoration:none;"><span >how to choose premium villa plots in Kanakapura Road</span></a><span> based on approvals, layout quality, and long-term value.</span></p>
     
     <h2 class="fs-5 fw-bold mb-2"><strong>Who Should Consider Buying Villa Plots Here Now?</strong></h2>
     
@@ -1479,7 +1479,7 @@ Cleaner air and lower noise levels.
 
     `,
     keywords:
-      "BMRDA Approved Sites in Kanakapura Road, BMRDA plots for sale in Kanakapura Road, Premium residential plots in Kanakapura Road, Kanakapura Road plot investment, BMRDA residential plot in Kanakapura Road, Plots near Kanakapura Road",
+      "BMRDA Approved Sites in Kanakapura Road, BMRDA plots for sale in Kanakapura Road, Real estate Developments in Kanakapura Road, Kanakapura Road plot investment, BMRDA residential plot in Kanakapura Road, Plots near Kanakapura Road",
     category: "real estate",
     date: "2025-12-15",
     schema: [
@@ -2157,7 +2157,7 @@ Cleaner air and lower noise levels.
       <li>Long-term residential living</li>
     </ul>
 
-    <p>This is why demand for residential plots in Kaggalipura is steadily increasing among premium buyers. For buyers focused on lifestyle-driven developments, exploring <a href="https://earagroup.com/blog/luxury-villa-plots-in-kaggalipura/">luxury villa plots in Kaggalipura </a>  can provide better clarity on community planning and long-term living benefits.
+    <p>This is why demand for residential plots in Kaggalipura is steadily increasing among premium buyers. For buyers focused on lifestyle-driven developments, exploring <a alt="luxury villa plots in Kaggalipura" href="https://earagroup.com/blog/luxury-villa-plots-in-kaggalipura/">luxury villa plots in Kaggalipura </a>  can provide better clarity on community planning and long-term living benefits.
 </p>
 
     <h2 class="fs-3">5. Low-Density Living = Better Lifestyle</h2>
@@ -2401,19 +2401,19 @@ Cleaner air and lower noise levels.
 
     ]
   },
- {
-  slug: "plots-for-sale-near-kanakapura-road",
-  title: "Plots for Sale Near Kanakapura Road – Location Guide & Investment Insights",
-  h1: "Plots for Sale Near Kanakapura Road – Location Guide & Investment Insights",
-  meta_title: "Plots for Sale Near Kanakapura Road | BMRDA Approved Villa Plots",
-  description:
-    "Explore verified plots for sale near Kanakapura Road, Bangalore. Find BMRDA approved residential and villa plots in Kaggalipura and nearby areas. Eara Group.",
-  image: "/images/plots-for-sale-near-kanakapura-road.webp",
-  alt: "Plots for sale near Kanakapura Road with greenery and gated community developments",
-  excerpt:
-    "Explore top localities offering plots for sale near Kanakapura Road, including Kaggalipura and Harohalli, with strong growth potential and connectivity.",
+  {
+    slug: "plots-for-sale-near-kanakapura-road",
+    title: "Plots for Sale Near Kanakapura Road – Location Guide & Investment Insights",
+    h1: "Plots for Sale Near Kanakapura Road – Location Guide & Investment Insights",
+    meta_title: "Plots for Sale Near Kanakapura Road | BMRDA Approved Villa Plots",
+    description:
+      "Explore verified plots for sale near Kanakapura Road, Bangalore. Find BMRDA approved residential and villa plots in Kaggalipura and nearby areas. Eara Group.",
+    image: "/images/plots-for-sale-near-kanakapura-road.webp",
+    alt: "Plots for sale near Kanakapura Road with greenery and gated community developments",
+    excerpt:
+      "Explore top localities offering plots for sale near Kanakapura Road, including Kaggalipura and Harohalli, with strong growth potential and connectivity.",
 
-  content: `
+    content: `
   <div class="blog-content">
 
    
@@ -2505,30 +2505,30 @@ Cleaner air and lower noise levels.
   </div>
   `,
 
-  keywords: [
-    "Plots for sale near Kanakapura Road",
-    "Villa plots near Kanakapura Road",
-    "Residential plots near Kanakapura Road",
-    "BMRDA plots near Kanakapura Road",
-    "Plots in South Bangalore"
-  ],
+    keywords: [
+      "Plots for sale near Kanakapura Road",
+      "Villa plots near Kanakapura Road",
+      "Residential plots near Kanakapura Road",
+      "BMRDA plots near Kanakapura Road",
+      "Plots in South Bangalore"
+    ],
 
-  category: "real estate",
-  date: "2026-04-16"
-},
-{
-  slug: "sites-in-kanakapura-road",
-  title: "Sites in Kanakapura Road – BMRDA Approved Layouts, Prices & Buyer Guide",
-  h1: "Sites in Kanakapura Road – BMRDA Approved Layouts, Prices & Buyer Guide",
-  meta_title: "Sites in Kanakapura Road | BMRDA Approved Residential Sites ",
-  description:
-    "Looking for sites in Kanakapura Road, Bangalore? Explore BMRDA approved residential and villa sites with clear titles, gated communities & premium amenities. Eara Group.",
-  image: "/images/sites-in-kanakapura-road.webp",
-  alt: "Residential sites in Kanakapura Road with gated layouts and greenery",
-  excerpt:
-    "Explore BMRDA approved sites in Kanakapura Road, including Kaggalipura and Harohalli, with pricing insights and buyer verification checklist.",
+    category: "real estate",
+    date: "2026-04-16"
+  },
+  {
+    slug: "sites-in-kanakapura-road",
+    title: "Sites in Kanakapura Road – BMRDA Approved Layouts, Prices & Buyer Guide",
+    h1: "Sites in Kanakapura Road – BMRDA Approved Layouts, Prices & Buyer Guide",
+    meta_title: "Sites in Kanakapura Road | BMRDA Approved Residential Sites ",
+    description:
+      "Looking for sites in Kanakapura Road, Bangalore? Explore BMRDA approved residential and villa sites with clear titles, gated communities & premium amenities. Eara Group.",
+    image: "/images/sites-in-kanakapura-road.webp",
+    alt: "Residential sites in Kanakapura Road with gated layouts and greenery",
+    excerpt:
+      "Explore BMRDA approved sites in Kanakapura Road, including Kaggalipura and Harohalli, with pricing insights and buyer verification checklist.",
 
-  content: `
+    content: `
   <div class="blog-content">
 
    
@@ -2635,18 +2635,18 @@ Cleaner air and lower noise levels.
   </div>
   `,
 
-  keywords: [
-    "Sites in Kanakapura Road",
-    "Plots for sale in Kanakapura Road",
-    "Residential sites Kanakapura Road",
-    "BMRDA sites Kanakapura Road",
-    "Sites near Kaggalipura",
-    "Villa plots Kanakapura Road"
-  ],
+    keywords: [
+      "Sites in Kanakapura Road",
+      "Plots for sale in Kanakapura Road",
+      "Residential sites Kanakapura Road",
+      "BMRDA sites Kanakapura Road",
+      "Sites near Kaggalipura",
+      "Villa plots Kanakapura Road"
+    ],
 
-  category: "real estate",
-  date: "2026-04-17"
-},
+    category: "real estate",
+    date: "2026-04-17"
+  },
 
   {
     "slug": "plots-in-kanakapura-road",
@@ -3012,25 +3012,25 @@ Cleaner air and lower noise levels.
 
     ]
   },
- {
-  "slug": "residential-plots-for-sale-in-kanakapura-road",
-  "title": "Residential Plots for Sale in Kanakapura Road: Complete Buyer Guide",
-  "h1": "Residential Plots for Sale in Kanakapura Road – Buyer's Guide 2025",
-  "meta_title": "Residential Plots for Sale in Kanakapura Road | Eara Group Bangalore",
-  "description": "Find verified residential plots for sale in Kanakapura Road, Bangalore. BMRDA approved, clear titles, premium layouts. Explore Amidst Nature by Eara Group.",
-  "image": "/images/residential-plots-kanakapura-road-buyer-guide.webp",
-  "alt": "Residential plots for sale in Kanakapura Road with planned layout and green surroundings",
-  "excerpt": "Explore residential plots for sale in Kanakapura Road with strong connectivity, green surroundings, and excellent long-term investment potential.",
-  "keywords": [
-    "Residential-plots-for-sale-in-kanakapura-road",
-    "Residential Plot in Kanakapura Road Bangalore for Sale",
-    "Premium Residential Plots in Kanakapura Road",
-    "Plots for Sale in Kanakapura Road Bangalore",
-    "Villa plots in Kanakapura Road"
-  ],
-  "category": "real estate",
-  "date": "2026-04-01",
-  "content": `
+  {
+    "slug": "residential-plots-for-sale-in-kanakapura-road",
+    "title": "Residential Plots for Sale in Kanakapura Road: Complete Buyer Guide",
+    "h1": "Residential Plots for Sale in Kanakapura Road – Buyer's Guide 2025",
+    "meta_title": "Residential Plots for Sale in Kanakapura Road | Eara Group Bangalore",
+    "description": "Find verified residential plots for sale in Kanakapura Road, Bangalore. BMRDA approved, clear titles, premium layouts. Explore Amidst Nature by Eara Group.",
+    "image": "/images/residential-plots-kanakapura-road-buyer-guide.webp",
+    "alt": "Residential plots for sale in Kanakapura Road with planned layout and green surroundings",
+    "excerpt": "Explore residential plots for sale in Kanakapura Road with strong connectivity, green surroundings, and excellent long-term investment potential.",
+    "keywords": [
+      "Residential-plots-for-sale-in-kanakapura-road",
+      "Residential Plot in Kanakapura Road Bangalore for Sale",
+      "Real estate Developments in Kanakapura Road",
+      "Plots for Sale in Kanakapura Road Bangalore",
+      "Villa plots in Kanakapura Road"
+    ],
+    "category": "real estate",
+    "date": "2026-04-01",
+    "content": `
   <div class="blog-content">
 
     <h2>Why Kanakapura Road Is Becoming Bangalore’s Smart Investment Corridor</h2>
@@ -3076,7 +3076,7 @@ Cleaner air and lower noise levels.
       <li>An NRI seeking a stable Bangalore-based land investment.</li>
     </ul>
 
-    <p>The rise in demand for premium residential plots in Kanakapura Road is driven by buyers who want flexibility, privacy, and long-term value.</p>
+    <p>The rise in demand for Real estate Developments in Kanakapura Road is driven by buyers who want flexibility, privacy, and long-term value.</p>
 
     <h2>Plot Investment vs Apartment: What Makes More Sense Today?</h2>
 
@@ -3217,157 +3217,328 @@ Cleaner air and lower noise levels.
 
   </div>
   `,
-  "schema": [
-    {
-  "@context": "https://schema.org",
-  "@graph": [
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
 
-    {
-      "@type": "BlogPosting",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/"
-      },
-      "headline": "Residential Plots for Sale in Kanakapura Road: Complete Buyer Guide",
-      "description": "Explore residential plots for sale in Kanakapura Road with strong growth potential, good connectivity, and long-term investment value for buyers and investors.",
-      "image": "https://earagroup.com/images/residential-plots-kanakapura-road-buyer-guide.webp",
-      "author": {
-        "@type": "Organization",
-        "name": "Eara Group",
-        "url": "https://earagroup.com/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Eara Group",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://earagroup.com/fevicon.png"
-        }
-      },
-      "datePublished": "2026-04-09",
-      "dateModified": "2026-04-09",
-      "keywords": [
-        "Residential plots for sale in Kanakapura Road",
-        "Residential Plot in Kanakapura Road Bangalore for Sale",
-        "Premium Residential Plots in Kanakapura Road",
-        "Plots for Sale in Kanakapura Road Bangalore",
-        "Villa plots in Kanakapura Road"
-      ]
-    },
+          {
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/"
+            },
+            "headline": "Residential Plots for Sale in Kanakapura Road: Complete Buyer Guide",
+            "description": "Explore residential plots for sale in Kanakapura Road with strong growth potential, good connectivity, and long-term investment value for buyers and investors.",
+            "image": "https://earagroup.com/images/residential-plots-kanakapura-road-buyer-guide.webp",
+            "author": {
+              "@type": "Organization",
+              "name": "Eara Group",
+              "url": "https://earagroup.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Eara Group",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://earagroup.com/fevicon.png"
+              }
+            },
+            "datePublished": "2026-04-09",
+            "dateModified": "2026-04-09",
+            "keywords": [
+              "Residential plots for sale in Kanakapura Road",
+              "Residential Plot in Kanakapura Road Bangalore for Sale",
+              "Real estate Developments in Kanakapura Road",
+              "Plots for Sale in Kanakapura Road Bangalore",
+              "Villa plots in Kanakapura Road"
+            ]
+          },
 
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is Kanakapura Road a good location for plot investment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, due to strong infrastructure growth and connectivity, it offers solid long-term appreciation potential."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the average price of plots here?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Prices typically range between ₹5,000 to ₹7,500 per sq.ft depending on location and developer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are there premium plotted developments available?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, several developers offer gated communities with modern infrastructure and amenities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it better to buy a plot or an apartment in this area?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plots offer higher long-term returns, flexibility, and better appreciation compared to apartments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents should I verify before buying?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Check the title deed, approvals, RERA registration, and layout sanction before purchase."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is metro connectivity available?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, the Green Line metro expansion improves connectivity and accessibility."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can NRIs invest in plots here?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, NRIs can legally invest in residential plots in India following RBI guidelines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the ideal plot size for investment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plot sizes between 1200–2400 sq.ft are commonly preferred for both investment and construction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long should I hold the investment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A holding period of 5–10 years typically provides strong appreciation potential."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are bank loans available for plotted developments?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, banks provide loans for plots in approved layouts from reputed developers."
-          }
-        }
-      ]
-    },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is Kanakapura Road a good location for plot investment?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, due to strong infrastructure growth and connectivity, it offers solid long-term appreciation potential."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the average price of plots here?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Prices typically range between ₹5,000 to ₹7,500 per sq.ft depending on location and developer."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are there premium plotted developments available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, several developers offer gated communities with modern infrastructure and amenities."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is it better to buy a plot or an apartment in this area?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Plots offer higher long-term returns, flexibility, and better appreciation compared to apartments."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What documents should I verify before buying?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Check the title deed, approvals, RERA registration, and layout sanction before purchase."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is metro connectivity available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, the Green Line metro expansion improves connectivity and accessibility."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can NRIs invest in plots here?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, NRIs can legally invest in residential plots in India following RBI guidelines."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the ideal plot size for investment?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Plot sizes between 1200–2400 sq.ft are commonly preferred for both investment and construction."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long should I hold the investment?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A holding period of 5–10 years typically provides strong appreciation potential."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are bank loans available for plotted developments?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, banks provide loans for plots in approved layouts from reputed developers."
+                }
+              }
+            ]
+          },
 
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://earagroup.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Blog",
-          "item": "https://earagroup.com/blog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Residential Plots in Kanakapura Road",
-          "item": "https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/"
-        }
-      ]
-    }
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://earagroup.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://earagroup.com/blog/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Residential Plots in Kanakapura Road",
+                "item": "https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/"
+              }
+            ]
+          }
 
-  ]
-}
+        ]
+      }
 
-  ]
-}
+    ]
+  },
+  {
+    "slug": "luxury-villa-plots-kanakapura-road",
+    "title": "Luxury Villa Plots near Kanakapura Road | Eara Amidst Nature",
+    "h1": "Luxury Villa Plots near Kanakapura Road | Eara Amidst Nature",
+    "meta_title": "Luxury Villa Plots near Kanakapura Road | Eara Amidst Nature",
+    "description": "Invest in BMRDA-approved luxury villa plots near Kanakapura Road at Eara Amidst Nature. Enjoy serene surroundings, design & high appreciation value.",
+    "image": "/images/Luxury-Villa-Plots-in-Kaggalipura.webp",
+    "alt": "Luxury Villa Plots in Kaggalipura",
+    "excerpt": "Investing in Serenity: Why Nature-Focused Developments Promise Better ReReal estate investment has evolved far beyond square footage and price tags",
+    "keywords": [
+      "Amidst Nature Price",
+      "Luxury Villa Plots for Sale near Kanakapura Road",
+      "Luxury Villa Plots in Kaggalipura",
+      "Plot For Sale in Kaggalipura",
+      "Villa Plot near Kanakapura Road",
+      "Residential plots for sale in Kanakapura Road"
+    ],
+    "category": "real estate",
+    "date": "2026-04-23",
+    "content": `
+  <div class="blog-content">
+    <h2>Investing in Serenity: Why Nature-Focused Developments Promise Better Returns</h2>
+    <p>Real estate investment has evolved far beyond square footage and price tags. Today’s most successful investors are guided by a deeper metric - serenity. Communities built around nature aren’t just calming to live in; they’re also proving to deliver better appreciation, stronger resale value, and sustainable rental potential.</p>
+    <p>One such example is Eara Group’s Amidst Nature, where Luxury Villa Plots for Sale in Kanakapura Road redefine how value and tranquility coexist.</p>
+    
+    <h2>Where Nature and Growth Move Together</h2>
+    <p>In Bengaluru’s real estate map, Kanakapura Road stands as a zone of balance - fast development without chaos. The region’s greenery, connectivity, and infrastructure have led to consistent property appreciation. Choosing a Villa Plot near Kanakapura Road isn’t just an emotional decision; it’s a financially sound one.</p>
+    <p>Eara Group’s Amidst Nature project combines the security of a gated layout with the rare calm of Kaggalipura’s natural surroundings. For investors, this means dual benefits - strong capital growth and a lifestyle asset that never loses demand.</p>
+    
+    <h2>The Smart Economics of Sustainability</h2>
+    <p>Sustainability has become the foundation of modern real estate value. Communities that focus on energy efficiency, greenery, and smart infrastructure enjoy higher occupancy and stronger resale appeal.</p>
+    <p>At Amidst Nature, the Luxury Villa Plots in Kaggalipura are designed for lasting worth, featuring:</p>
+    <ul>
+      <li>Eco-sensitive layouts and renewable-friendly infrastructure.</li>
+      <li>Efficient rainwater harvesting and sewage treatment plants (STP).</li>
+      <li>Underground cabling and well-aligned roads for a clutter-free look.</li>
+    </ul>
+    <p>These green features not only lower long-term maintenance costs but also attract quality buyers and tenants - enhancing both yield and prestige.</p>
+    
+    <h2>In Summary: Your Legacy Investment</h2>
+    <p>If you’re exploring a Plot for Sale in Kaggalipura, location is everything. Set along the scenic Kanakapura corridor, Kaggalipura offers excellent metro access, proximity to top schools and healthcare, and abundant greenery.</p>
+    <p>Properties like Residential Plots for Sale in Kanakapura Road are steadily outpacing apartment returns due to their flexibility, independence, and appreciation potential. Investors seeking Luxury Villa Plots for Sale Kanakapura Road recognize that serenity has become the new symbol of status - one that grows in financial value each year.</p>
+    
+    <h2>Eara Group: Crafting Legacies, Not Just Layouts</h2>
+    <p>Eara Group’s reputation for quality and transparency continues to make its projects a benchmark for smart investing. Each development - especially Amidst Nature - embodies the group’s belief that prosperity thrives where peace resides.</p>
+    <p>For those evaluating real estate assets that offer both returns and emotional satisfaction, Eara Amidst Nature stands as a legacy-worthy choice.</p>
+    <p>Book your visit today and experience the serenity of Eara Amidst Nature.<br/>
+    Or download the brochure to explore pricing, layout plans, and plot availability for Luxury Villa Plots in Kaggalipura.</p>
+
+    <h2>FAQs</h2>
+    <h3 class="fs-4">1. What is the Amidst Nature Price range?</h3>
+    <p>The Amidst Nature Price varies based on plot size and location within the community. To know the latest pricing, contact Eara Group or schedule a site visit.</p>
+
+    <h3 class="fs-4">2. Why invest in Luxury Villa Plots for Sale near Kanakapura Road?</h3>
+    <p>They offer premium infrastructure, sustainable layouts, and exceptional appreciation potential — blending lifestyle and long-term value.</p>
+
+    <h3 class="fs-4">3. Are Luxury Villa Plots in Kaggalipura suitable for both living and investment?</h3>
+    <p>Yes. Kaggalipura’s calm environment and strategic connectivity make it perfect for residence, rental, and resale opportunities.</p>
+
+    <h3 class="fs-4">4. What are the benefits of owning a Villa Plot near Kanakapura Road?</h3>
+    <p>These plots combine legal safety, green surroundings, and proximity to urban hubs — ensuring lasting demand.</p>
+
+    <h3 class="fs-4">5. Is the Amidst Nature project legally approved?</h3>
+    <p>Yes. Eara Group’s Amidst Nature follows all regulatory norms, ensuring complete transparency and secure ownership.</p>
+
+    <h3 class="fs-4">6. Are there residential plots for sale in Kanakapura Road with sustainable features?</h3>
+    <p>Absolutely. Eara Group’s projects include eco-friendly systems like rainwater harvesting, STPs, and solar-ready infrastructure.</p>
+
+    <h3 class="fs-4">7. How does investing in a Plot for Sale in Kaggalipura compare to apartments?</h3>
+    <p>Plots offer higher flexibility, lower maintenance, and better appreciation over time compared to built-up units.</p>
+
+    <h3 class="fs-4">8. What makes Eara Group’s Amidst Nature unique among plotted developments?</h3>
+    <p>Its blend of serenity, smart infrastructure, and premium amenities offers unmatched long-term value.</p>
+
+    <h3 class="fs-4">9. Can I customize my home design on these Luxury Villa Plots for Sale Kanakapura Road?</h3>
+    <p>Yes. Buyers can design villas as per their preference while following community guidelines for aesthetic harmony.</p>
+
+    <h3 class="fs-4">10. How can I schedule a visit to Eara Amidst Nature?</h3>
+    <p>Simply reach out via the official website to book a visit or download the brochure and explore current Amidst Nature Price details.</p>
+  </div>
+  `,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the Amidst Nature price range?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pricing varies by plot size and location within the community. For the latest details, contact Eara Group or schedule a site visit via the Amidst Nature page."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why invest in Luxury Villa Plots for Sale near Kanakapura Road?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You get premium infrastructure, sustainable planning, and strong appreciation potential along with everyday convenience and connectivity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Luxury Villa Plots in Kaggalipura suitable for living and investment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Kaggalipura offers calm surroundings and solid connectivity, making it ideal for residence, rental, and resale."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the benefits of owning a Villa Plot near Kanakapura Road?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Legal clarity, green surroundings, and proximity to schools, healthcare, and urban hubs support long-term demand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Amidst Nature project legally approved?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Eara Group's Amidst Nature follows applicable regulatory norms for secure ownership."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there residential plots for sale in Kanakapura Road with sustainable features?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Systems include rainwater harvesting, sewage treatment plants, and solar-ready planning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does investing in a Plot for Sale in Kaggalipura compare to apartments?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plots typically offer higher flexibility, lower maintenance, and better appreciation potential over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes Eara Group's Amidst Nature unique among plotted developments?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The blend of serenity, smart infrastructure, and premium amenities supports long-term value."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I customize my home design on these Luxury Villa Plots near Kanakapura Road?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Buyers can plan villas as per their needs while following community design guidelines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I schedule a visit to Eara Amidst Nature?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the official Amidst Nature page to book a site visit, view pricing, and check current availability."
+            }
+          }
+        ]
+      }
+
+    ]
+  }
 ];

@@ -223,7 +223,7 @@ export default function Header() {
 
       <div
         className={`navbar-animated position-fixed top-0 w-100 d-none d-md-block ${isVisible ? "navbar-visible" : ""
-          } ${isTop ? "bg-transparent" : "bg-light"}`}
+          } ${isTop ? "bg-black" : "bg-light"}`}
         style={{ zIndex: 999 }}
       >
         <div className="container py-2 d-flex justify-content-between align-items-center">
@@ -356,7 +356,7 @@ export default function Header() {
         {/* SUB NAVBAR */}
 
         {activeMenu && activeMenu.items && !activeMenu.mega && (
-          <div className="sub-navbar bg-secondary py-2">
+          <div className="sub-navbar bg-secondary py-2 d-none">
             <div className="container">
               <ul className="sub-menu d-flex align-items-center mb-0 gap-4">
                 {activeMenu.items.map((item: NormalMenuItem) => (

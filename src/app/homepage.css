@@ -70,3 +70,8 @@
     background-position: 0% 100%
   }
 }
+
+/* Remove 10px padding from swiper-backface-hidden in the hero slider */
+#main-slider .swiper-backface-hidden {
+  padding: 0 !important;
+}

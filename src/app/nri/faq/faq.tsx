@@ -25,7 +25,7 @@ export default function NriFaq() {
                     NRI FAQs
                   </h1>
 
-                  <p className="text-center d-block fs-6">
+                  <p className="text-center d-block fs-6 d-none">
                     <Link className="text-white text-decoration-none" href="/">
                       Home
                     </Link>{" "}
