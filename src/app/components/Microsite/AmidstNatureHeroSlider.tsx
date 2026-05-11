@@ -57,10 +57,12 @@ export default function AmidstNatureHeroSlider() {
                 {/* ✅ Centered Text using Bootstrap 5.3 */}
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white px-3">
                   <div className="micrositeslidertext">
-                    <h1 className="display-4 fw-bold mb-0">
-                      Luxury villa plots in Kaggalipura
+                    <h1 className="display-4 fw-bold mb-0 fs-2">
+                      Amidst Nature — Luxury Villa Plots in Kaggalipura,
+Kanakapura Road
                     </h1>
-                    <p className="lead mb-0 text-center">Crafted for serene living and timeless value.</p>
+                    <p className="lead mb-0 text-center fs-6">Luxury Villa Plots in Kaggalipura, Kanakapura Road —
+Crafted for Serene Living and Timeless Value.</p>
                   </div>
                 </div>
               </SwiperSlide>

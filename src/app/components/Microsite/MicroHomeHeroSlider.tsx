@@ -21,7 +21,7 @@ const slides = [
     desktopImg: '/images/Eara_banner-image.webp',
     mobileImg: '/images/Eara_banner-image.webp',
     heading: ' Luxury villa plots in Kaggalipura    ',
-    subheading: 'Crafted for serene living and timeless value.    ',
+    subheading: 'Luxury Villa Plots in Kaggalipura, Kanakapura Road — Crafted for Serene Living and Timeless Value.',
   },
 ];
 export default function MicroHomeHeroSlider() {

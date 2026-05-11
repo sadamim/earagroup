@@ -4,11 +4,21 @@
 import "./../microsite.css";
 import Link from "next/link";
 export const metadata = {
-  title: 'Eara Group Amidst Nature BMRDA Villa Plots in Kanakapura Road',
-  description: 'Explore luxury BMRDA approved villa plots at Amidst Nature by Eara Group in Kanakapura Road. Enjoy lush greenery, modern amenities with Connectivity.',
+  title: 'Amidst Nature by Eara Group | Luxury Villa Plots in Kaggalipura, Bangalore',
+  description: 'Amidst Nature Reviews, price, location &amp; project details. Explore Eara Group&#39;s BMRDA approved luxury villa plots in Kaggalipura, Kanakapura Road, Bangalore. 141 plots | 25,000 sq.ft clubhouse.',
   keywords: 'Amidst Nature Kanakapura Road,  Amidst Nature Price,  BMRDA Approved Sites in Kanakapura Road,  BMRDA Plots For Sale in Kanakapura Road,  BMRDA Residential Plot in Kanakapura Road',
   alternates: {
     canonical: 'https://earagroup.com/amidstnature/',
+  },
+   openGraph: {
+    title:
+      'Amidst Nature by Eara Group | Luxury Villa Plots in Kaggalipura',
+    description:
+      'BMRDA approved luxury villa plots in Kaggalipura, Kanakapura Road. 18+ acres | 141 plots | 25,000 sq.ft clubhouse | 30+ amenities. Explore Amidst Nature by Eara Group.',
+    url: 'https://earagroup.com/amidstnature/',
+    siteName: 'Eara Group',
+    locale: 'en_IN',
+    type: 'website',
   },
 };
 import Image from "next/image";
@@ -246,7 +256,6 @@ export default function Home() {
                   {/* ✅ Centered Text using Bootstrap 5.3 */}
                   <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white px-3 ">
                     <div className="micrositeslidertext">
-                      <h1 className="display-4 fw-bold  mb-0 "> Amidst Nature — Luxury Villa Plots in Kaggalipura, Kanakapura Road </h1>
                       <p className="lead mb-0 text-center">Luxury Villa Plots in Kaggalipura, Kanakapura Road — Crafted for Serene Living and Timeless Value.</p>
                     </div>
 
@@ -293,7 +302,7 @@ export default function Home() {
                 <div className="col">
                   <i className="bi bi-bounding-box fs-1 mb-2 theme-color-light"></i>
                   <h6 className="fw-bold text-uppercase fs-6 mb-2 theme-color-light">
-                    Plot Sizes
+                    Plot Size
                   </h6>
                   <span className="fs-5 fw-light theme-color-light">
                     1500 - 3300 sq.ft
@@ -358,11 +367,20 @@ export default function Home() {
                     </span>
                     <p className="mt-4 theme-color-dark line-height-1_8 ">
                       <strong>
-                        Every plot at Amidst Nature reflects a lifestyle shaped by nature, space, and thoughtful design.
+                       Every plot at Amidst Nature reflects a lifestyle shaped
+by nature, space, and thoughtful design. 
                       </strong>
                     </p>
                     <p className="theme-color-dark line-height-1_8">
-                      Spread across 18+ lush acres in Kaggalipura, just off Kanakapura Main Road, Amidst Nature by Eara Group is a BMRDA-approved ultra-luxury plotted development offering 141 villa plots ranging from 1,500 to 2,800 sq.ft. Designed to balance nature&#39;s calm with modern comforts, this premium villa plot community offers the freedom to create a home that feels timeless, private, and deeply connected to its surroundings.
+                     Spread
+across 18+ lush acres in Kaggalipura, just off
+Kanakapura Main Road, Amidst Nature by Eara Group
+is a BMRDA-approved ultra-luxury plotted
+development offering 141 villa plots ranging from 1,500
+to 2,800 sq.ft. Designed to balance nature's calm with modern comforts, this premium villa plot community
+offers the freedom to create a home that feels
+timeless, private, and deeply connected to its
+surroundings.
                     </p>
                     <div className="text-center my-4">
                       <ContactFormPopup
@@ -851,7 +869,13 @@ export default function Home() {
                       <div className="w-100">
                         <div className="text-size-regular   m-center lh">
                           <p className="text-start m-center">
-                            Surrounded by serene greenery and nestled along the city&rsquo;s fast-developing Kanakapura stretch, Amidst Nature is among the most sought-after premium villa plots in Kanakapura Road.
+                             Surrounded by serene greenery and nestled along the
+city's fast-developing Kanakapura stretch, Amidst
+Nature is among the most sought-after premium villa
+plots in Kanakapura Road — a BMRDA-approved
+gated community offering luxury villa plots in
+Kaggalipura with unmatched connectivity and natural
+beauty.
                           </p>
                           <p className="text-start  m-center">
                             For those seeking villa plots in Kaggalipura, this address offers unmatched tranquility and long-term value -  perfectly placed for families and investors alike.
