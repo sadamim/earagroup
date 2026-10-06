@@ -245,7 +245,7 @@ export default function Blog() {
                                     </div>
                                     {/* 🛑 FIX: Use flex-grow-1 to make this content block take up all remaining vertical space */}
                                     <div className="services-content flex-grow-1 d-flex flex-column">
-                                        <h6 className="title my-3 text-center fw-bold">
+                                        <h6 className="title my-3 text-center fw-bold font-calibri">
                                             <Link className='text-dark fw-bold text-decoration-none theme-color-light fs-4' href={`/blog/${post.slug}`} style={{ fontWeight: "600" }}>
                                                 {post.title}
                                             </Link>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { posts } from '../../data/posts';
 import Script from "next/script";
+import BlogArticleBody from '../../components/BlogArticleBody';
 
 // 🔹 Static paths
 export async function generateStaticParams() {
@@ -71,6 +72,39 @@ export async function generateMetadata({ params }) {
 }
 
 
+
+// 🔹 Split the article HTML into the main body and the FAQ list (same as the live site)
+const decodeEntities = (str) =>
+   str
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&rsquo;|&lsquo;/g, "'")
+      .replace(/&rdquo;|&ldquo;/g, '"')
+      .replace(/&ndash;/g, '–')
+      .replace(/&mdash;/g, '—')
+      .replace(/&#39;/g, "'")
+      .replace(/&quot;/g, '"')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>');
+
+const toText = (html) => decodeEntities(html.replace(/<[^>]+>/g, '')).trim();
+
+function splitFaqs(content = '') {
+   const re = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+   let m;
+   while ((m = re.exec(content))) {
+      const title = toText(m[1]);
+      if (!/faq|frequently asked/i.test(title)) continue;
+      const mainContent = content.slice(0, m.index).trim();
+      const rest = content.slice(m.index + m[0].length);
+      const faqs = [...rest.matchAll(/<h3[^>]*>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3[^>]*>|$)/gi)]
+         .map((f, i) => ({ id: i + 1, question: toText(f[1]), answer: toText(f[2]) }))
+         .filter((f) => f.question);
+      if (faqs.length) return { mainContent, faqTitle: title, faqs };
+   }
+   return { mainContent: content, faqTitle: '', faqs: [] };
+}
+
 // 🔹 Page Component
 export default async function BlogPost({ params }) {
    // ✅ FIX: In Next.js 15, params must be awaited before use
@@ -81,6 +115,8 @@ export default async function BlogPost({ params }) {
    if (!post) {
       notFound();
    }
+
+   const { mainContent, faqTitle, faqs } = splitFaqs(post.content);
 
    return (
       <>
@@ -100,12 +136,12 @@ export default async function BlogPost({ params }) {
         <div id="blogheader" className="header-section">
                         <div className='row'>
                             <div className='col-md-12'>
-                                <div className="image-container">
+                                <div className="image-container position-relative w-100">
                                     <Image
                                         src="/images/blog-header.avif"
                                         height={2880}
                                         width={1920}
-                                        className='img-fluid masterpiece d-md-block d-none'
+                                        className='img-fluid masterpiece d-md-block d-none w-100'
                                         alt="blog"
                                         id='blogheader'
                                         style={{ objectPosition: '100% 100%' }}
@@ -114,7 +150,7 @@ export default async function BlogPost({ params }) {
                                         src="/images/Mobile_ban_Eara.webp"
                                         height={2880}
                                         width={1920}
-                                        className='img-fluid  d-md-none'
+                                        className='img-fluid masterpiece blogheadermobile d-md-none w-100'
                                         alt="blog"
                                         id='blogheadermobile'
                                         style={{ objectPosition: '100% 100%' }}
@@ -146,9 +182,12 @@ export default async function BlogPost({ params }) {
                   {post.h1 || post.title}
                </h1> */}
 
-               <div
-                  className="theme-color-dark py-2"
-                  dangerouslySetInnerHTML={{ __html: post.content }}
+               <BlogArticleBody
+                  mainContent={mainContent}
+                  faqTitle={faqTitle}
+                  faqs={faqs}
+                  slug={post.slug}
+                  authorName={post.author || 'Eara Group'}
                />
             </div>
          </section>

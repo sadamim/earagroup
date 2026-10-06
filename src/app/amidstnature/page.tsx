@@ -362,7 +362,7 @@ export default function Home() {
                 <div className="col-md-6 d-flex align-items-center">
                   <div>
                     <h2 className="mb-0 theme-color-dark text-center line-height-1_8 ">AMIDST NATURE</h2>
-                    <span className="fs-5 theme-color-dark text-center d-block line-height-1_8 ">
+                    <span className="fs-5 theme-color-dark text-center d-block line-height-1_8 font-calibri">
                       A Community Rooted in <span className="text-success">Nature</span>
                     </span>
                     <p className="mt-4 theme-color-dark line-height-1_8 ">
@@ -516,7 +516,7 @@ surroundings.
               </div>
 
               <div className="row justify-content-center">
-                <div className="col-lg-10 text-center">
+                <div className="col-lg-8 text-center">
 
                   <div className="masterplan-image">
 
@@ -540,12 +540,8 @@ surroundings.
 
                 </div>
               </div>
-
-            
-                <p className="text-center theme-color-dark mt-4 line-height-1_8">
-                  The Amidst Nature master plan spans 18+ acres in Kaggalipura and has been designed to maximise open green space while ensuring every plot has excellent road frontage, proper drainage, and clear demarcation. Wide tree-lined internal roads, landscaped common areas, a central park, and a dedicated entrance to the 25,000 sq.ft clubhouse complex are integral to the layout. Every plot is within easy walking distance of community amenities.
-                </p>
             </div>
+            <p className="mt-5 px-5 text-center theme-color-dark text-space-24">The Amidst Nature master plan spans 18+ acres in Kaggalipura and has been designed to maximise open green space while ensuring every plot has excellent road frontage, proper drainage, and clear demarcation. Wide tree-lined internal roads, landscaped common areas, a central park, and a dedicated entrance to the 25,000 sq.ft clubhouse complex are integral to the layout. Every plot is within easy walking distance of community amenities.</p>
           </section>
           <section className="padding-global mysection visible theme-bg-dark " >
             <div className="container-fluid">
@@ -732,7 +728,7 @@ surroundings.
                     <h2 data-animate={1} className="m-center text-center  theme-color-dark">
                       Amenities
                     </h2>
-                    <p className="text-center theme-color-dark mt-3 mb-4 line-height-1_8 container">
+                    <p className="text-center theme-color-dark text-amenities text-space-22">
                       Amidst Nature offers 30+ world-class amenities across its 18+ acre gated community. The centrepiece is a 25,000 sq.ft clubhouse featuring a gymnasium, swimming pool with deck, yoga room, caf&eacute;, library, steam &amp; sauna, and indoor and outdoor party areas. The landscape includes jogging tracks, a butterfly garden, amphitheatre, pickle ball court, cricket pitch, acupressure walkway, outdoor gym, children&rsquo;s play area, elder&rsquo;s corner, and event lawn.
                     </p>
                   </div>
@@ -893,7 +889,7 @@ beauty.
               </div>
             </div>
           </section>
-          <section className="section_home-connectivity theme-bg-light page-about-mv" id="location">
+          <section className="section_home-connectivity theme-bg-light page-about-mv d-none" id="location">
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
@@ -935,38 +931,40 @@ beauty.
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section className="location-section theme-bg-light page-about-mv py-5" id="location">
+            <div className="container">
+              <div className="text-center mb-5">
+                <h2 className="heading-style-h2 theme-color-light mt-3">Project Location</h2>
+              </div>
+              <div className="row align-items-center g-5">
+                <div className="col-lg-7">
+                  <div className="location-card">
+                    <h3>Located in<span> Kaggalipura</span>, Off Kanakapura Main Road</h3>
+                    <p>Surrounded by lush greenery and nestled along Bengaluru&apos;s rapidly developing Kanakapura Road corridor, <strong>Amidst Nature</strong>offers the perfect balance of peaceful living and city convenience.</p>
+                    <p>Whether you&apos;re planning your dream villa or investing in premium plotted development, this location provides excellent appreciation potential with seamless connectivity.</p>
+                    <div className="location-highlights">
+                      <div className="highlight-item"><div className="icon-box"><i className="bi bi-tree-fill"></i></div><div><h5>Nature Surroundings</h5><p>Green &amp; Peaceful Environment</p></div></div>
+                      <div className="highlight-item"><div className="icon-box"><i className="bi bi-signpost-split-fill"></i></div><div><h5>Excellent Connectivity</h5><p>NICE Road &bull; Metro &bull; PRR</p></div></div>
+                      <div className="highlight-item"><div className="icon-box"><i className="bi bi-house-heart-fill"></i></div><div><h5>Luxury Villa Plots</h5><p>BMRDA Approved</p></div></div>
+                      <div className="highlight-item"><div className="icon-box"><i className="bi bi-graph-up-arrow"></i></div><div><h5>Investment Potential</h5><p>Fast Growing Location</p></div></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-5">
+                  <div className="map-card">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7781.187708608875!2d77.51706043914793!3d12.804854316360881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4169b07f2a7b%3A0xe6d9ff13f19a5517!2sAmidst%20Nature!5e0!3m2!1sen!2sin!4v1759994801277!5m2!1sen!2sin" width="100%" height="380" loading="lazy" className="mb-3"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-5">
                 <MyAccordionList items={faqItems} />
               </div>
             </div>
           </section>
-          <section className="project-location-section py-5 theme-bg-light" id="project-location">
-            <div className="container">
-              <div className="text-center mb-4">
-                <h2 className="heading-style-h2 theme-color-dark m-center text-center">Project Location</h2>
-              </div>
-              <div className="row align-items-center g-4">
-                <div className="col-md-6">
-                  <h3 className="fs-3 theme-color-dark m-center mb-3">Located in Kaggalipura, Off Kanakapura Main Road</h3>
-                  <p className="theme-color-dark line-height-1_8">
-                    Surrounded by lush greenery and nestled along Bengaluru&rsquo;s rapidly developing Kanakapura Road corridor, Amidst Nature offers the perfect balance of peaceful living and city convenience.
-                  </p>
-                  <p className="theme-color-dark line-height-1_8">
-                    Whether you&rsquo;re planning your dream villa or investing in premium plotted development, this location provides excellent appreciation potential with seamless connectivity.
-                  </p>
-                  <div className="row g-3 mt-2">
-                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Nature Surroundings</h6><p className="mb-0 small theme-color-dark">Green &amp; Peaceful Environment</p></div></div>
-                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Excellent Connectivity</h6><p className="mb-0 small theme-color-dark">NICE Road &bull; Metro &bull; PRR</p></div></div>
-                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Luxury Villa Plots</h6><p className="mb-0 small theme-color-dark">BMRDA Approved</p></div></div>
-                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Investment Potential</h6><p className="mb-0 small theme-color-dark">Fast Growing Location</p></div></div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7781.187708608875!2d77.51706043914793!3d12.804854316360881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4169b07f2a7b%3A0xe6d9ff13f19a5517!2sAmidst%20Nature!5e0!3m2!1sen!2sin!4v1759994801277!5m2!1sen!2sin" width="100%" height="380" loading="lazy" className="mb-3"></iframe>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="section_home-masterplan theme-bg-light lifestyle-section py-5" id="master-plan">
+          <section className="section_home-masterplan theme-bg-light lifestyle-section py-5 d-none" id="master-plan">
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-md-12 d-block mx-auto">
