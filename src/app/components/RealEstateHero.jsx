@@ -8,10 +8,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 
 const menuItems = [
-  { id: 0, label: "Sustainability", image: "/images/Sustainability.webp", text: "Creating future-ready communities that respect the land and restore balance with nature.", },
-  { id: 1, label: "Innovation", image: "/images/Innovation.webp", text: "Blending thoughtful design with cutting-edge planning to build smarter, greener spaces.", },
-  { id: 2, label: "Integrity", image: "/images/Integrity.webp", text: "Rooted in transparency and trust, every decision guided by what’s right and reliable.", },
-  { id: 3, label: "Quality", image: "/images/Quallity.webp", text: "Delivering excellence in every detail, from foundation to finish.", },
+  { id: 0, label: "People First", image: "/images/core/People First.webp", text: "We put human well-being, happiness and meaningful experiences at the heart of everything we create.", },
+  { id: 1, label: "Excellence", image: "/images/core/Excellence.webp", text: "We pursue the highest standards in quality, design, service, innovation and execution.", },
+  { id: 2, label: "Sustainability", image: "/images/core/Sustainability.webp", text: "We build responsibly, respecting nature and creating solutions that contribute to a healthier planet and a better tomorrow.", },
+  { id: 3, label: "Integrity", image: "/images/core/Integrity.webp", text: "We operate with transparency, accountability, trust and ethical responsibility in every relationship.", },
+  { id: 4, label: "Innovation", image: "/images/core/Innovation.webp", text: "We continuously challenge conventional thinking to create smarter, more relevant and future-ready solutions.", },
 ];
 
 export default function RealEstateHero() {

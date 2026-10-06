@@ -65,7 +65,7 @@ export default function Contact() {
                         Feel free to contact us any time. We will get back to you as soon as we can!
 
                       </p>
-                      <p>Visit the Eara Group location to experience our work firsthand, or reach out to our team for any inquiries about projects, partnerships, or collaborations.
+                      <p>Visit the Eara Group Address to experience our work firsthand, or reach out to our team for any inquiries about projects, partnerships, or collaborations.
                       </p>
                       <ContactForm
                         inputClass="form-control rounded-0"

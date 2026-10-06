@@ -58,10 +58,9 @@ export default function AmidstNatureHeroSlider() {
                 <div className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white px-3">
                   <div className="micrositeslidertext">
                     <h1 className="display-4 fw-bold mb-0 fs-2">
-                      Amidst Nature — Luxury Villa Plots in Kaggalipura,
-Kanakapura Road
+                      Luxury Villa Plots in Kaggalipura, Kanakapura Road
                     </h1>
-                    <p className="lead mb-0 text-center fs-6">Luxury Villa Plots in Kaggalipura, Kanakapura Road —
+                    <p className="lead mb-0 text-center fs-6 d-none">Luxury Villa Plots in Kaggalipura, Kanakapura Road —
 Crafted for Serene Living and Timeless Value.</p>
                   </div>
                 </div>

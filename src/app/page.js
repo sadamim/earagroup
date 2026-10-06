@@ -56,6 +56,27 @@ const YouTube = dynamic(() => import("react-youtube"), { ssr: false });
 
 
 
+const homeBlogs = [
+  {
+    slug: "plots-for-sale-in-kanakapura-road-bangalore",
+    title: "Luxury Villa Plots for Sale in Kanakapura Road - Complete 2026 Price Guide",
+    image: "/images/plots-for-sale-in-kanakapura-road-bangalore-price-trends.webp",
+    excerpt: "Luxury villa plots for sale in Kanakapura Road are at one of South Bangalore's most compelling price and value intersections. With strong connectivity, planned growth, and rising demand, the corridor continues to offer enduring promise for buyers seeking land with lasting potential.",
+  },
+  {
+    slug: "how-to-choose-premium-villa-plots-in-kanakapura-road",
+    title: "Premium Residential Plots in Kanakapura Road - Complete Buyer Checklist 2026",
+    image: "/images/luxury-villa-plots-kaggalipura-2).webp",
+    excerpt: "Buying BMRDA-approved plots in Kanakapura Road is one of the most significant financial decisions a buyer will make - and the difference between a smooth, legally clean purchase and a costly mistake often comes down to a handful of essential checks.",
+  },
+  {
+    slug: "villa-plots-vs-apartments-bangalore",
+    title: "Villa Plots vs Apartments in Bangalore - Which Is a Better Investment in 2026?",
+    image: "/1Blog.webp",
+    excerpt: "An honest comparison of villa plots in Bangalore and apartments - covering appreciation, ownership, design freedom, and long-term value for buyers choosing between land and built spaces in 2026, especially in fast-evolving growth corridors.",
+  },
+];
+
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -135,7 +156,8 @@ export default function Home() {
     <>
 
       <main className="main-wrapper">
-        <h1 className="d-none" style={{ display: "none" }}>Eara Group</h1>
+        <h1 className="d-none" style={{ display: "none" }}>Luxury Villa Plots for Sale in Kanakapura Road — Welcome to Eara Group</h1>
+        
         <div className="overflow-hidden w-100 main-slider-margin" id="main-slider">
           <div id="carouselExampleDark" className="header-section position-relative w-100">
             <div className="row m-0 p-0">
@@ -195,11 +217,11 @@ export default function Home() {
                   </h2>
 
                   <p className="mt-3 theme-color-dark m-center">
-                    At EARA Group, we’re redefining the future of real estate with a strong vision to build premium communities that balance modern living with environmental responsibility.
+                    At Eara Group, we develop BMRDA approved luxury villa plot communities in South Bangalore — planned for families who want space, nature, and long-term value in every square foot.
                   </p>
 
                   <p className="mt-3 theme-color-dark m-center">
-                    We create thoughtfully designed communities that blend luxury, sustainability, and nature. Every development is envisioned to offer a refined lifestyle for those who aspire to live beyond the ordinary. Every square foot is planned with precision, combining modern infrastructure, long-term value, and green living at its core.
+                    We create thoughtfully designed communities, including luxury villa plots for sale in Kanakapura Road, where luxury, sustainability, and nature come together seamlessly. Every development is envisioned to offer a refined lifestyle for those who aspire to live beyond the ordinary. Every square foot is planned with precision, combining modern infrastructure, long-term value, and green living at its core.
                   </p>
 
                   <p className="m-center">
@@ -208,7 +230,7 @@ export default function Home() {
 
                   <div className="text-start m-center mb-md-5 pb-4">
                     <Link
-                      href="/about"
+                      href="/amidstnature"
                       className="btn btn-primary border mt-3"
                     >
                       Explore More
@@ -333,7 +355,7 @@ export default function Home() {
               <h2 className="text-center theme-color-dark">BLOGS</h2>
 
               <div className="blog-grid">
-                {posts.slice(0, 3).map((post) => (
+                {homeBlogs.map((post) => (
                   <div key={post.slug} className="blog-card theme-bg-dark">
                     <Image
                       src={post.image}
@@ -351,7 +373,7 @@ export default function Home() {
                         className="text-decoration-none"
                       >
                         <h4
-                          className="theme-color-light text-center cursor-pointer fs-5"
+                          className="theme-color-light text-center cursor-pointer fs-5 font-calibri"
                           style={{ fontWeight: 600 }}
                         >
                           {post.title}
@@ -367,6 +389,9 @@ export default function Home() {
                   </div>
                 ))}
               </div>
+              <p className="m-center py-md-0 py-1 text-center mt-4 theme-color-dark">
+                <Link href="/blog" className="btn btn-primary">Expore All Blogs</Link>
+              </p>
             </div>
 
           </section>

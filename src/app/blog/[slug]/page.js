@@ -29,6 +29,7 @@ export async function generateMetadata({ params }) {
       title: post.meta_title || post.title,
       description: post.description,
       keywords: post.keywords,
+      ...(post.author ? { authors: [{ name: post.author }] } : {}),
       robots: {
          index: true,
          follow: true,
@@ -46,8 +47,8 @@ export async function generateMetadata({ params }) {
       },
 
       openGraph: {
-         title: post.meta_title || post.title,
-         description: post.description,
+         title: post.og_title || post.meta_title || post.title,
+         description: post.og_description || post.description,
          url: canonicalUrl,
          images: [
             {
@@ -62,8 +63,8 @@ export async function generateMetadata({ params }) {
 
       twitter: {
          card: 'summary_large_image',
-         title: post.meta_title || post.title,
-         description: post.description,
+         title: post.og_title || post.meta_title || post.title,
+         description: post.og_description || post.description,
          images: [post.image],
       },
    };

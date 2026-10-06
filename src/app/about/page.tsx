@@ -130,14 +130,14 @@ export default function About() {
                 <h2 className="mb-2 theme-color-dark fs-2 text-center">About Us</h2>
                 <br />
                 <p className="mb-2 theme-color-dark">
-                  EARA Group is a progressive real estate development company dedicated to creating exceptional living environments that harmonize luxury with nature. With a strong commitment to quality, sustainability, and thoughtful design, we develop spaces that enrich lifestyles and stand the test of time.
+                  Eara Group is a progressive real estate development company dedicated to creating exceptional living environments that harmonize luxury with nature. With a strong commitment to quality, sustainability, and thoughtful design, we develop spaces that enrich lifestyles and stand the test of time.
                 </p>
                 <br />
 
 
 
                 <p className="mb-5 theme-color-dark">
-                  Our philosophy goes beyond building properties. We believe in crafting communities where architecture, environment, and lifestyle come together seamlessly.  <br /> <br /> Every EARA development reflects meticulous planning, superior infrastructure, and a vision for future-ready living.
+                  Our philosophy goes beyond building properties. As a real estate developer, we believe in crafting communities where architecture, environment, and lifestyle come together seamlessly.  <br /> <br /> Every Eara Group development reflects meticulous planning, superior infrastructure, and a vision for future-ready living.
                 </p>
 
               </div>
@@ -178,7 +178,7 @@ export default function About() {
                     <div className="text-center">
                       <h3 className="fw-bold theme-color-dark">Our Mission</h3>
                       <p className="theme-color-dark">
-                        To develop world-class residential environments that combine thoughtful design, environmental responsibility, and long-term value for our customers and stakeholders.
+                        To create world-class experiences and solutions across real estate, hospitality and healthcare that enhance the way people live, work, connect and thrive, while creating a harmonious balance between people, purpose and nature.
                       </p>
                     </div>
                   </div>
@@ -186,7 +186,7 @@ export default function About() {
                     <div className="text-center">
                       <h3 className="fw-bold theme-color-dark">Our Vision</h3>
                       <p className="theme-color-dark">
-                        To create sustainable communities that redefine luxury living and inspire future generations.
+                        To redefine the future of human living by creating integrated ecosystems that inspire better living, nurture well-being, connect people with nature, and enable sustainable prosperity for generations to come.
                       </p>
                     </div>
                   </div>
@@ -209,7 +209,7 @@ export default function About() {
                       <h3 className="fw-bold theme-color-dark">Our Developments</h3>
 
                       <p className="theme-color-dark">
-                        EARA Group focuses on developing premium plotted communities and
+                        Eara Group Bangalore focuses on developing premium plotted communities and
                         lifestyle destinations in carefully chosen locations that offer
                         both natural beauty and strong investment potential.
                       </p>

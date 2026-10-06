@@ -1,131 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>https://earagroup.com/</loc>
-  <lastmod>2026-04-10T12:42:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/about/</loc>
-  <lastmod>2026-04-10T12:46:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/founders/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/amidstnature/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/nri/invest/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/nri/faq/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/channel-partner/</loc>
-  <lastmod>2026-04-10T12:46:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/contact/</loc>
-  <lastmod>2026-04-10T12:46:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/amidstnature</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/bmrda-residential-plots-in-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/plots-for-sale-in-kanakapura-road-bangalore/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/how-to-choose-premium-villa-plots-in-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/privacy-policy/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/terms-of-conditions/</loc>
-  <lastmod>2026-04-10T12:46:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/plots-in-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/villa-plot-near-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/plots-for-sale-in-kaggalipura-bangalore/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/bmrda-approved-sites-kanakapura-road-investment/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://earagroup.com/blog/luxury-villa-plots-in-kaggalipura/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+  <!-- Main Pages -->
+  <url>
+    <loc>https://earagroup.com/</loc>
+    <lastmod>2026-04-10T12:42:27+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/about/</loc>
+    <lastmod>2026-04-10T12:46:33+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/founders/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/amidstnature/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/nri/invest/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/nri/faq/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/</loc>
+    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/channel-partner/</loc>
+    <lastmod>2026-04-10T12:46:33+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/contact/</loc>
+    <lastmod>2026-04-10T12:46:33+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/privacy-policy/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/terms-of-conditions/</loc>
+    <lastmod>2026-04-10T12:46:33+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
-<url>
-  <loc>https://earagroup.com/blog/plots-for-sale-near-kanakapura-road/</loc>
-  <lastmod>2026-04-12T12:46:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://earagroup.com/blog/bmrda-residential-plots-in-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/plots-for-sale-in-kanakapura-road-bangalore/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/how-to-choose-premium-villa-plots-in-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/plots-in-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/residential-plots-for-sale-in-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/villa-plot-near-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/plots-for-sale-in-kaggalipura-bangalore/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/bmrda-approved-sites-kanakapura-road-investment/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/luxury-villa-plots-in-kaggalipura/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/plots-for-sale-near-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/sites-in-kanakapura-road/</loc>
+    <lastmod>2026-04-10T12:46:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/luxury-villa-plots-kanakapura-road/</loc>
+    <lastmod>2026-04-23T12:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/plots-for-sale-in-kanakapura-road/</loc>
+    <lastmod>2026-05-11T12:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/premium-villa-plots-in-kanakapura-road/</loc>
+    <lastmod>2026-05-11T12:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/residential-plots-for-sale-in-kaggalipura-bangalore/</loc>
+    <lastmod>2026-05-19T12:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/amidst-nature-reviews/</loc>
+    <lastmod>2026-05-19T12:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
-
-<url>
-  <loc>https://earagroup.com/blog/sites-in-kanakapura-road/</loc>
-  <lastmod>2026-04-10T12:46:32+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+  <!-- Newly Added Blog Posts -->
+  <url>
+    <loc>https://earagroup.com/blog/villa-plots-vs-apartments-bangalore/</loc>
+    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://earagroup.com/blog/kanakapura-road-real-estate-investment-guide/</loc>
+    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
 </urlset>

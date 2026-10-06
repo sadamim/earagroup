@@ -62,8 +62,21 @@ export default function FounderMessage() {
               </div>
             </div> */}
 
+            {/* Left Image */}
+            <div className="col-lg-4 col-md-5">
+              <div className="founder-image text-center">
+                <Image
+                  src="/images/ln-reddy-founder.webp"
+                  width={400}
+                  height={500}
+                  alt="Mr. E. Lakshminarayana Reddy, Founder & CEO of EARA Group"
+                  className="img-fluid rounded shadow"
+                />
+              </div>
+            </div>
+
             {/* Right Content */}
-            <div className="col-lg-12">
+            <div className="col-lg-8 col-md-7">
               <h2 className="mb-4">About Mr. E. Lakshminarayana Reddy</h2>
 
               <p>
@@ -71,7 +84,7 @@ export default function FounderMessage() {
               </p>
 
               <p>
-                His mission is simple yet powerful: to create spaces that enrich lifestyles and stand as legacies for generations to come. Under his leadership, EARA Group has become a trusted name in real estate development, driving the company’s vision of creating future-ready neighborhoods that deliver long-term value.
+                His mission is simple yet powerful: to create spaces that enrich lifestyles and stand as legacies for generations to come. As part of the Eara Group Founders vision, he has shaped the company into a trusted name in real estate development, driving future-ready neighborhoods that deliver long-term value.
               </p>
 
               <p>
@@ -99,7 +112,7 @@ export default function FounderMessage() {
               </p>
 
               <p>
-                EARA Group represents reliability and growth. With Real estate Developments across Bengaluru’s fast-developing corridors, we ensure that every investment is backed by quality, foresight, and appreciation potential. Our focus on timely delivery and ethical practices makes us a trusted partner in wealth creation.
+                EARA Group represents reliability and growth. With real estate developments across Bengaluru’s fast-developing corridors, our focus as Eara Group CEO is to ensure that every investment is backed by quality, foresight, and appreciation potential. Our approach to timely delivery and ethical practices makes us a trusted partner in wealth creation.
               </p>
 
               <p>

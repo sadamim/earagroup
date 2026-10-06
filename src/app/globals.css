@@ -20556,3 +20556,28 @@ color:#fff;
 .blog-content h3 + p {
   margin-top: 8px;
 }
+
+/* ===== Typography synced with live earagroup.com ===== */
+:root {
+  --font-heading: Calibri, var(--font-calibri-fallback), Carlito, "Segoe UI", Candara, sans-serif;
+  --font-body: Georgia, var(--font-georgia-fallback), Gelasio, "Times New Roman", Times, serif;
+}
+html, body, p, li, dd, dt, td, th, blockquote, figcaption, address, small, .lead, .card-text, .accordion-body, .blog-content, .text-size-medium, .text-size-large {
+  font-family: var(--font-body) !important;
+}
+h1, h2, .h1, .h2, section h1, section h2, .section-2 h2, .content h2, .lifestyle-section h2, .heading, .main-title, .headingH1, .heading-style-h2, .modal-title, #carouselExampleDark .carousel-caption h5, #carouselExampleDark1 .carousel-caption h5 {
+  font-family: var(--font-heading) !important;
+}
+h3, h4, h5, h6, .h3, .h4, .h5, .h6, section h3, section h4, section h5, section h6, .sub-heading, .service-text, .about-text {
+  font-family: var(--font-body) !important;
+}
+header, header a, header li, nav, nav a, nav li, .navbar, .navbar a, .navbar li, .navbar .nav-item .nav-link, .nav-link, .navbar-brand, .dropdown-menu, .dropdown-item, .sub-navbar a, .breadcrumb, .menu, .menu li, .menu a, .menu-link, .submenu, .submenu li, .submenu a, .mega-menu, .mega-menu li, .mega-menu a, .btn, button, a.btn, [type="button"], [type="submit"], input, select, textarea, label, .form-label, .form-check-label, .form-control, .form-select, .button_text, input::placeholder, textarea::placeholder, .project-info-section h6, .project-info-section span, .project-stats-strip span, .counter, .stat-value, .stat-label, .font-calibri, .font-calibri * {
+  font-family: var(--font-heading) !important;
+}
+footer p.text-uppercase.fw-bold, .site-footer__top p.fw-bold.text-uppercase, .hero-enquiry-card h5, .modal-header h5, .hero-menu-item .menu-text, .corevalue-card h3, .corevalue-card h4 {
+  font-family: var(--font-heading) !important;
+}
+.font-georgia, .font-georgia * {
+  font-family: var(--font-body) !important;
+}
+.main-title { font-family: Georgia, serif; font-size: 48px; font-weight: 400; }

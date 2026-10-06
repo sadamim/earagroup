@@ -3,7 +3,7 @@
 const coreValues = [
   {
     title: "Sustainability",
-    text: "Creating future-ready communities that respect the land and restore balance with nature.",
+    text: "Creating future-ready plotted developments in South Bangalore that respect the land and restore balance with nature.",
     img: "/images/Sustainability_Eara.webp",
   },
   {

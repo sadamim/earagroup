@@ -85,21 +85,15 @@ export default function ChannelPartner() {
   <div className="mx-auto px-md-5">
 
     <p className="mb-4">
-      At <strong>EARA Group</strong>, we believe strong partnerships create
-      successful communities. We invite professional channel partners,
-      real estate consultants, and brokerage firms to collaborate with us
-      in bringing exceptional developments to discerning buyers.
+      At <strong>EARA Group</strong>, we believe strong partnerships create successful communities. We invite professional channel partners, real estate consultants, and brokerage firms to collaborate with us in presenting luxury villa plots for sale near Kaggalipura to discerning buyers.
     </p>
 
     <p className="mb-4">
-      Our projects are designed to deliver premium living experiences
-      amidst nature, supported by thoughtful planning, transparent
-      processes, and attractive partner incentives.
+      Our projects are designed to deliver premium living experiences amidst nature, supported by thoughtful planning, transparent processes, and attractive incentives for every trusted real estate partner in Bangalore.
     </p>
 
     <p className="mb-0">
-      Join us and become part of a growing network shaping the future of
-      modern real estate.
+      Join us as an Eara Group channel partner and become part of a growing network shaping the future of modern real estate.
     </p>
 
   </div>

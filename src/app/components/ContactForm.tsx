@@ -1,5 +1,5 @@
 'use client';
-import { useState, ChangeEvent, FormEvent } from 'react';
+import { useState, useId, ChangeEvent, FormEvent } from 'react';
 import { PhoneInput } from 'react-international-phone';
 import 'react-international-phone/style.css'; // Required for flags and layout
 
@@ -31,6 +31,8 @@ export default function ContactForm({
   });
 
   const [loading, setLoading] = useState(false);
+  const [hasWhatsapp, setHasWhatsapp] = useState(false);
+  const whatsappId = useId();
   const [note, setNote] = useState('');
   const [success, setSuccess] = useState(false);
 
@@ -160,6 +162,19 @@ export default function ContactForm({
           className={inputClass}
         />
       )}
+
+      <div className="form-check text-start my-2">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          id={whatsappId}
+          checked={hasWhatsapp}
+          onChange={(e) => setHasWhatsapp(e.target.checked)}
+        />
+        <label className="form-check-label" htmlFor={whatsappId}>
+          Do you have whatsapp activated on this number ?
+        </label>
+      </div>
 
       <div className="text-center">
         <button type="submit" className={buttonClass} disabled={loading}>

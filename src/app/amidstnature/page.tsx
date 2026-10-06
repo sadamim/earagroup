@@ -4,8 +4,8 @@
 import "./../microsite.css";
 import Link from "next/link";
 export const metadata = {
-  title: 'Amidst Nature by Eara Group | Luxury Villa Plots in Kaggalipura, Bangalore',
-  description: 'Amidst Nature Reviews, price, location &amp; project details. Explore Eara Group&#39;s BMRDA approved luxury villa plots in Kaggalipura, Kanakapura Road, Bangalore. 141 plots | 25,000 sq.ft clubhouse.',
+  title: 'Amidst Nature | BMRDA Approved Luxury Villa Plots in Kaggalipura, Kanakapura Road',
+  description: '141 luxury villa plots in a BMRDA approved gated community. 18+ acres | 25,000 sq.ft clubhouse | 30+ amenities | Kaggalipura, Kanakapura Road.',
   keywords: 'Amidst Nature Kanakapura Road,  Amidst Nature Price,  BMRDA Approved Sites in Kanakapura Road,  BMRDA Plots For Sale in Kanakapura Road,  BMRDA Residential Plot in Kanakapura Road',
   alternates: {
     canonical: 'https://earagroup.com/amidstnature/',
@@ -374,10 +374,10 @@ by nature, space, and thoughtful design.
                     <p className="theme-color-dark line-height-1_8">
                      Spread
 across 18+ lush acres in Kaggalipura, just off
-Kanakapura Main Road, Amidst Nature by Eara Group
+Kanakapura Main Road, Amidst Nature Kanakapura Road by Eara Group
 is a BMRDA-approved ultra-luxury plotted
 development offering 141 villa plots ranging from 1,500
-to 2,800 sq.ft. Designed to balance nature's calm with modern comforts, this premium villa plot community
+to 2,800 sq.ft. Designed to balance nature's calm with modern comforts, this premium villa plots Kaggalipura community
 offers the freedom to create a home that feels
 timeless, private, and deeply connected to its
 surroundings.
@@ -491,22 +491,6 @@ surroundings.
                 </div>
 
                 <div className="pricing-row">
-                  <div>30 x 50</div>
-                  <div>1500 sq.ft.</div>
-                  <div>
-                    <ContactFormPopup buttonText="On Request*" buttonClassName="request-btn" />
-                  </div>
-                </div>
-
-                <div className="pricing-row">
-                  <div>40 x 60</div>
-                  <div>2400 sq.ft.</div>
-                  <div>
-                    <ContactFormPopup buttonText="On Request*" buttonClassName="request-btn" />
-                  </div>
-                </div>
-
-                <div className="pricing-row">
                   <div>40 x 70</div>
                   <div>2800 sq.ft.</div>
                   <div>
@@ -518,6 +502,9 @@ surroundings.
 
 
 
+              <p className="text-center theme-color-dark mt-4 mb-0 line-height-1_8 d-none">
+                Plot prices at Amidst Nature, Kaggalipura are competitive with prevailing rates in the Kanakapura Road micro-market. Premium villa plots in this corridor have seen consistent price appreciation over the past three years. Contact our sales team at <a href="tel:+919071070207">+91 907 107 0207</a> for the current pricing sheet and flexible payment schedule options.
+              </p>
             </div>
           </section>
           <section className="masterplan-section py-5" id="masterplan">
@@ -554,6 +541,10 @@ surroundings.
                 </div>
               </div>
 
+            
+                <p className="text-center theme-color-dark mt-4 line-height-1_8">
+                  The Amidst Nature master plan spans 18+ acres in Kaggalipura and has been designed to maximise open green space while ensuring every plot has excellent road frontage, proper drainage, and clear demarcation. Wide tree-lined internal roads, landscaped common areas, a central park, and a dedicated entrance to the 25,000 sq.ft clubhouse complex are integral to the layout. Every plot is within easy walking distance of community amenities.
+                </p>
             </div>
           </section>
           <section className="padding-global mysection visible theme-bg-dark " >
@@ -741,6 +732,9 @@ surroundings.
                     <h2 data-animate={1} className="m-center text-center  theme-color-dark">
                       Amenities
                     </h2>
+                    <p className="text-center theme-color-dark mt-3 mb-4 line-height-1_8 container">
+                      Amidst Nature offers 30+ world-class amenities across its 18+ acre gated community. The centrepiece is a 25,000 sq.ft clubhouse featuring a gymnasium, swimming pool with deck, yoga room, caf&eacute;, library, steam &amp; sauna, and indoor and outdoor party areas. The landscape includes jogging tracks, a butterfly garden, amphitheatre, pickle ball court, cricket pitch, acupressure walkway, outdoor gym, children&rsquo;s play area, elder&rsquo;s corner, and event lawn.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -778,7 +772,7 @@ surroundings.
           <section className="reviews-section py-5 theme-bg-light" id="reviews">
             <div className="container">
               <div className="text-center mb-5">
-                <h2 className="heading-style-h2 text-color-dark theme-color-dark m-center text-center">Amidst Nature Reviews &ndash; What Our Buyers Say</h2>
+                <h2 className="heading-style-h2 text-color-dark theme-color-dark m-center text-center">What Our Customers Say</h2>
               </div>
               <div className="row g-4 justify-content-center">
                 {/* Card 1 */}
@@ -792,7 +786,7 @@ surroundings.
                       &#9733;&#9733;&#9733;&#9733;&#9733; <span className="text-muted fs-6">(5/5)</span>
                     </div>
                     <p className="theme-color-dark fst-italic mb-0 line-height-1_8">
-                      "The location of Amidst Nature is simply unbeatable. Surrounded by greenery yet perfectly connected to Electronic City and NICE Road. The BMRDA approval gave us complete confidence. Best decision we made."
+                      "The location of Amidst Nature Kanakapura Road is simply unbeatable. Surrounded by greenery yet perfectly connected to Electronic City and NICE Road, the BMRDA approval gave us complete confidence. Best decision we made."
                     </p>
                   </div>
                 </div>
@@ -824,7 +818,7 @@ surroundings.
                       &#9733;&#9733;&#9733;&#9733;&#9733; <span className="text-muted fs-6">(5/5)</span>
                     </div>
                     <p className="theme-color-dark fst-italic mb-0 line-height-1_8">
-                      "The amenities at Amidst Nature are on a different level &mdash; the 25,000 sq.ft clubhouse with pool, gym, yoga room, and caf&eacute; is something I had never seen in a plotted development. Highly recommended for anyone looking at villa plots on Kanakapura Road."
+                      "The amenities at Amidst Nature are on a different level &mdash; the 25,000 sq.ft clubhouse with pool, gym, yoga room, and caf&eacute; is something I had never seen in a plotted development. Highly recommended for anyone looking for premium villa plots on Kanakapura Road."
                     </p>
                   </div>
                 </div>
@@ -928,7 +922,7 @@ beauty.
                     <div className="w-100">
                       <div className="   m-center lh">
                         <p className="text-start m-center">
-                          Surrounded by serene greenery and nestled along the city&rsquo;s fast-developing Kanakapura stretch, Amidst Nature is among the most sought-after premium villa plots in Kanakapura Road.
+                          Surrounded by serene greenery and nestled along the city&rsquo;s fast-developing Kanakapura stretch, Amidst Nature is among the most sought-after premium villa plots in Kanakapura Road &mdash; a BMRDA-approved gated community offering luxury villa plots in Kaggalipura with unmatched connectivity and natural beauty.
                         </p>
                         <p className="text-start  m-center">
                           For those seeking villa plots in Kaggalipura, this address offers unmatched tranquility and long-term value -  perfectly placed for families and investors alike.
@@ -939,14 +933,40 @@ beauty.
 
                       </div>
                     </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7781.187708608875!2d77.51706043914793!3d12.804854316360881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4169b07f2a7b%3A0xe6d9ff13f19a5517!2sAmidst%20Nature!5e0!3m2!1sen!2sin!4v1759994801277!5m2!1sen!2sin" width="100%" height="380" loading="lazy" className="mb-3"></iframe>
                   </div>
                 </div>
                 <MyAccordionList items={faqItems} />
               </div>
             </div>
           </section>
-          <section className="section_home-masterplan theme-bg-light lifestyle-section py-5 d-none" id="master-plan">
+          <section className="project-location-section py-5 theme-bg-light" id="project-location">
+            <div className="container">
+              <div className="text-center mb-4">
+                <h2 className="heading-style-h2 theme-color-dark m-center text-center">Project Location</h2>
+              </div>
+              <div className="row align-items-center g-4">
+                <div className="col-md-6">
+                  <h3 className="fs-3 theme-color-dark m-center mb-3">Located in Kaggalipura, Off Kanakapura Main Road</h3>
+                  <p className="theme-color-dark line-height-1_8">
+                    Surrounded by lush greenery and nestled along Bengaluru&rsquo;s rapidly developing Kanakapura Road corridor, Amidst Nature offers the perfect balance of peaceful living and city convenience.
+                  </p>
+                  <p className="theme-color-dark line-height-1_8">
+                    Whether you&rsquo;re planning your dream villa or investing in premium plotted development, this location provides excellent appreciation potential with seamless connectivity.
+                  </p>
+                  <div className="row g-3 mt-2">
+                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Nature Surroundings</h6><p className="mb-0 small theme-color-dark">Green &amp; Peaceful Environment</p></div></div>
+                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Excellent Connectivity</h6><p className="mb-0 small theme-color-dark">NICE Road &bull; Metro &bull; PRR</p></div></div>
+                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Luxury Villa Plots</h6><p className="mb-0 small theme-color-dark">BMRDA Approved</p></div></div>
+                    <div className="col-6"><div className="p-3 bg-white rounded-3 shadow-sm h-100"><h6 className="fw-bold mb-1 theme-color-dark">Investment Potential</h6><p className="mb-0 small theme-color-dark">Fast Growing Location</p></div></div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7781.187708608875!2d77.51706043914793!3d12.804854316360881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4169b07f2a7b%3A0xe6d9ff13f19a5517!2sAmidst%20Nature!5e0!3m2!1sen!2sin!4v1759994801277!5m2!1sen!2sin" width="100%" height="380" loading="lazy" className="mb-3"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="section_home-masterplan theme-bg-light lifestyle-section py-5" id="master-plan">
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-md-12 d-block mx-auto">

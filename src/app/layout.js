@@ -4,7 +4,7 @@ import Script from "next/script";
 import ClientWrapper from './components/ClientWrapper';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Poppins } from 'next/font/google';
+import { Poppins, Carlito, Gelasio } from 'next/font/google';
 
 export const metadata = {
   title: 'Eara Group - Luxury Villa Plots for Sale in Kanakapura Road.',
@@ -30,6 +30,21 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-poppins',
+});
+
+// Same fonts as the live site: Calibri for headings/nav (Carlito fallback), Georgia for body (Gelasio fallback)
+const carlito = Carlito({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-calibri-fallback',
+  display: 'swap',
+});
+
+const gelasio = Gelasio({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-georgia-fallback',
+  display: 'swap',
 });
 
 export default function RootLayout({ children }) {
@@ -144,7 +159,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={`${carlito.variable} ${gelasio.variable}`}>
       <head>
         <link rel="icon" type="image/png" href="/fevicon.png" />
         <link rel="shortcut icon" type="image/png" href="/fevicon.png" />

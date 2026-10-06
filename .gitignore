@@ -41,3 +41,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 package-lock.json
+# local sync helpers (not part of the site)
+/_sync_backup/
+fetch-live-images.ps1
+public/images/EaraWebsiteHmeBannerVideo.zip

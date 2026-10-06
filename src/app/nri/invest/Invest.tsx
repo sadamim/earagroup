@@ -52,9 +52,7 @@ export default function WhyInvestInEara() {
           <div className="text-center mb-5">
             <h2 className="mb-3">Why Invest in EARA</h2>
             <p className="theme-color-dark">
-              Investing in real estate is not only about owning property — it is
-              about securing long-term value, stability and a meaningful
-              connection to your homeland.
+              Investing in real estate is not only about owning property — it is about securing long-term value, stability, and a meaningful connection to your homeland through NRI investment in plots near Kanakapura Road.
             </p>
           </div>
 
@@ -64,12 +62,8 @@ export default function WhyInvestInEara() {
               <div className="p-4 shadow-sm bg-white h-100 rounded">
                 <h5 className="mb-3">Strategic Location Advantage</h5>
                 <p>
-                  EARA developments are carefully located in emerging growth
-                  corridors that offer strong connectivity and future
-                  appreciation potential. Projects near Kanakapura Main Road
-                  benefit from improving infrastructure, accessibility and
-                  increasing residential demand.
-                </p>
+              EARA developments are carefully located in emerging growth corridors that offer strong connectivity and future appreciation potential. Such projects benefit from improving infrastructure, accessibility, and increasing residential demand, making them ideal for NRI property near Kanakapura Road.
+            </p>
               </div>
             </div>
 
@@ -102,10 +96,8 @@ export default function WhyInvestInEara() {
               <div className="p-4 shadow-sm bg-white h-100 rounded">
                 <h5 className="mb-3">Transparent and Reliable Process</h5>
                 <p>
-                  Transparency and clear communication form the foundation of
-                  every EARA development. Buyers are guided through
-                  documentation, processes and project details with clarity.
-                </p>
+              Transparency and clear communication form the foundation of every EARA development. Buyers are guided through documentation, processes, and project details with clarity, making overseas Indian property investment more seamless and reassuring.
+            </p>
               </div>
             </div>
 
@@ -113,11 +105,8 @@ export default function WhyInvestInEara() {
               <div className="p-4 shadow-sm bg-white h-100 rounded">
                 <h5 className="mb-3">Long-Term Value Potential</h5>
                 <p>
-                  Real estate continues to be one of the most trusted investment
-                  avenues for NRIs. Strategically located plotted developments
-                  in growing regions often offer strong appreciation potential,
-                  making them valuable long-term investments.
-                </p>
+              Real estate continues to be one of the most trusted investment avenues for NRIs. Strategically located plotted developments in growing regions often offer strong appreciation potential, making them valuable long-term investments for NRI real estate investment in Bangalore.
+            </p>
               </div>
             </div>
 
@@ -125,11 +114,8 @@ export default function WhyInvestInEara() {
               <div className="p-4 shadow-sm bg-white h-100 rounded">
                 <h5 className="mb-3">Seamless Support for NRI Buyers</h5>
                 <p>
-                  EARA understands the unique requirements of overseas
-                  investors. Our team provides assistance with project
-                  information, documentation guidance and the overall purchase
-                  process to ensure a smooth investment experience.
-                </p>
+              EARA understands the unique requirements of overseas investors. Our team provides assistance with project information, documentation guidance, and the overall purchase process, helping NRIs buy plots in India with confidence and ease.
+            </p>
               </div>
             </div>
 
@@ -139,10 +125,7 @@ export default function WhyInvestInEara() {
           <div className="text-center mt-5">
             <h4 className="mb-3">Explore Investment Opportunities With EARA</h4>
             <p>
-              Whether you are planning to build a future home in India or
-              looking for a long-term real estate investment, EARA developments
-              offer a combination of nature, thoughtful planning and promising
-              growth potential.
+              Whether you are planning to build a future home in India or looking for a long-term real estate investment, Eara Group NRI developments offer a combination of nature, thoughtful planning, and promising growth potential.
             </p>
           </div>
 

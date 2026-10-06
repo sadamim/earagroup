@@ -46,15 +46,12 @@ export default function NriFaq() {
             <h2 className="mb-3">NRI Real Estate Investment FAQs</h2>
 
             <p className="theme-color-dark">
-              At EARA Group, we understand that Non-Resident Indians often seek
-              opportunities to stay connected to their homeland through
-              meaningful investments.
-            </p>
+      At EARA Group, we understand that Non-Resident Indians often seek opportunities to stay connected to their homeland through meaningful investments. This NRI FAQ real estate India guide is created to make that journey clearer.
+    </p>
 
             <p>
-              Our team supports NRI buyers with the right guidance on property
-              regulations, documentation and investment procedures in India.
-            </p>
+      Our team supports NRI buyers with the right guidance on property regulations, documentation, and investment procedures in India.
+    </p>
           </div>
 
           {/* FAQ Grid */}
@@ -65,10 +62,8 @@ export default function NriFaq() {
               <div className="faq-card p-4 shadow-sm bg-white h-100">
                 <h5>1. Can NRIs purchase property in India?</h5>
                 <p>
-                  Yes. Non-Resident Indians (NRIs) and Overseas Citizens of India
-                  (OCI) are permitted to purchase residential and commercial
-                  properties in India under RBI and FEMA regulations.
-                </p>
+      Yes. Non-Resident Indians and Overseas Citizens of India can purchase residential and commercial properties in India, subject to RBI rules for NRI property and FEMA regulations.
+    </p>
               </div>
             </div>
 
@@ -89,9 +84,8 @@ export default function NriFaq() {
               <div className="faq-card p-4 shadow-sm bg-white h-100">
                 <h5>3. Can NRIs invest in EARA plotted developments?</h5>
                 <p>
-                  Yes. NRIs can invest in residential plots offered by EARA
-                  Group subject to compliance with RBI and FEMA regulations.
-                </p>
+      Yes. NRIs can invest in residential plots offered by EARA Group, subject to compliance with FEMA regulations for NRI plots, RBI guidelines, and applicable project approvals.
+    </p>
               </div>
             </div>
 
@@ -100,10 +94,8 @@ export default function NriFaq() {
               <div className="faq-card p-4 shadow-sm bg-white h-100">
                 <h5>4. Do NRIs need to be present in India?</h5>
                 <p>
-                  No. NRIs can complete the purchase process remotely by
-                  appointing a trusted representative through Power of
-                  Attorney (PoA).
-                </p>
+      No. NRIs can complete the purchase process remotely by appointing a trusted representative through Power of Attorney for NRI India transactions.
+    </p>
               </div>
             </div>
 
@@ -169,10 +161,8 @@ export default function NriFaq() {
               <div className="faq-card p-4 shadow-sm bg-white h-100">
                 <h5>10. How does EARA assist NRI buyers?</h5>
                 <p>
-                  EARA Group provides guidance on documentation,
-                  regulatory requirements and purchase procedures to ensure
-                  a seamless investment experience.
-                </p>
+      EARA Group provides guidance on documentation, regulatory requirements, NRI RERA property details, and purchase procedures to ensure a seamless investment experience.
+    </p>
               </div>
             </div>
 
